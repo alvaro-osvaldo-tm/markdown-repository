@@ -1,0 +1,20 @@
+# Git Ignore file
+
+## Builds
+
+## Binary files
+*.jpg
+
+## Python files
+
+.python-version
+
+## Editors
+
+*.swp
+
+
+## Support Tools
+.obsidian
+.trash
+
