@@ -5,7 +5,7 @@
 
 ### System Context
 
-![context-diagram](../images/context-diagram.svg)
+![context-diagram](../../support/repositories/images/context-diagram.svg)
 
 ### Specifications
 

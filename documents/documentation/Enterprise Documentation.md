@@ -8,7 +8,7 @@
 
 ## Chain Value
 
-- [System Concept Value Stream](../../support/value%20stream/main%20value%20stream/System%20Concept%20Value%20Stream.md)
+- [System Concept Value Stream](../enterprise/value%20stream/main%20value%20stream/System%20Concept%20Value%20Stream.md)
 
 ## Catalogues
 

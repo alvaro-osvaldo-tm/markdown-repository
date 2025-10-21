@@ -9,4 +9,4 @@
 
 <!-- This section must be generated from the archimate file -->
 
-![Core Elements](../../images/enterprise-metamodel.jpg)
+![Core Elements](../../../support/repositories/images/enterprise-metamodel.jpg)
