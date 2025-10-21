@@ -1,6 +1,9 @@
 # README
 
 
+>	This framework is under development in currently is in concept phase.
+
+
 ## Description
 
 
@@ -86,3 +89,4 @@ For user related documents
 
 ## License
 
+This repository is licensed under GPL-3.0 license , see [LICENSE](LICENSE.md) file for more information.
