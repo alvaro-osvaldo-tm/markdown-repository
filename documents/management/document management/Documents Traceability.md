@@ -13,6 +13,7 @@ This document defines the repository's documents needs that satisfy , their purp
 - Indicate basic instructions for stakeholders
 - Serves as documentation stakeholder entrypoint
 
+
 **Purpose:**
 
 -  Indicate how to do to basic usage
