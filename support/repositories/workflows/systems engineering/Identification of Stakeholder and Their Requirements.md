@@ -27,4 +27,3 @@
 	3. Prioritise the identified needs (e.g., using MoSCoW).
 	4. Finalize the Problem Statement and gain formal approval on the '[Problem Agreement](../../documents/enterprise/agreements/Problem%20Agreement.md)' document, establishing initial need traceability.
 	5. Update the  [Context Diagram](../../../../documents/engineering/Context%20Diagram.md)and revise the the [Enterprise Metamodel](../../../../documents/enterprise/architecture/Enterprise%20Metamodel.md) to reflect the organisation administration structure,
-	6. Update the [Stakeholder and Roles Maturity Model](../../../../documents/administration/maturity/Stakeholder%20and%20Roles%20Maturity%20Model.md)
