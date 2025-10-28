@@ -6,6 +6,8 @@ This value stream aims to elicit and consolidate stakeholder ideas and needs, tr
 
 Is expected to be used for new systems initiatives when no system's concept exists.
 
+Is based in the referenced book[^book] .
+
 ## Customer
 
 - Any Stakeholder who possesses a need or idea for a new system.
@@ -30,3 +32,9 @@ The System Concept (Conceptual Model), materialized in the core Systems Engineer
 		4. [Requirements Analysis](../../../../support/repositories/workflows/systems%20engineering/Requirements%20Analysis.md)
 		5. [System-Level Synthesis](../../../../support/repositories/workflows/systems%20engineering/System-Level%20Synthesis.md)
 		6. [System Design Review](../../../../support/repositories/workflows/systems%20engineering/System%20Design%20Review.md)
+
+
+## Reference
+
+
+[^book]: Managing Complex Technical Projects: A Systems Engineering Approach. R. Ian Faulconbridge, Michael J. Ryan
