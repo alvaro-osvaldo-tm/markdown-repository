@@ -3,6 +3,8 @@
 
 ## Description
 
+## Guidelines
+
 ## Prerequisites
 
 ## Principles
@@ -18,10 +20,11 @@
 ## Course of Actions
 
 - <span class="iteraction">Until the stakeholder identification is acceptable</span>
-	1. Meet the stakeholders, registry each one in the [Stakeholder Catalog](../../../../documents/enterprise/Stakeholder%20Catalog.md) identifying preliminary their vision, frustrations, principles , needs and concerns.
-		- > [!note] It's also an opportunity the main operational scenarios.
+	1. Meet the stakeholders, registry each one in the [Stakeholder Catalog](../../../../documents/enterprise/catalogs/Stakeholder%20Catalog.md) identifying preliminary their vision, frustrations, principles , needs and concerns.
+		- > [!note] It's also an opportunity to gather the some concepts for operational scenarios.
 		- > [!constraint] To avoid "floating" stakeholders, each one must be related to a problem. 
-		- > [!constraint] If some technical item emerges during this workflow, it must be put in the stakeholder document in a section related to their operation or need to be further processed.
-	2. Prioritise the identified needs (e.g., using MoSCoW).
-	3. Finalize the Problem Statement and gain formal approval on the '[Problem Agreement](../../documents/enterprise/agreements/Problem%20Agreement.md)' document, establishing initial need traceability.
-	4. Update the  [Context Diagram](../../../../documents/engineering/Context%20Diagram.md)and revise the the [Enterprise Metamodel](../../../../documents/enterprise/architecture/Enterprise%20Metamodel.md) to reflect the organisation administration structure,
+	2. Identify the roles that support the stakeholders or need to be created and registry into the [Roles Catalog](../../../../documents/enterprise/catalogs/Roles%20Catalog.md)
+	3. Prioritise the identified needs (e.g., using MoSCoW).
+	4. Finalize the Problem Statement and gain formal approval on the '[Problem Agreement](../../documents/enterprise/agreements/Problem%20Agreement.md)' document, establishing initial need traceability.
+	5. Update the  [Context Diagram](../../../../documents/engineering/Context%20Diagram.md)and revise the the [Enterprise Metamodel](../../../../documents/enterprise/architecture/Enterprise%20Metamodel.md) to reflect the organisation administration structure,
+	6. Update the [Stakeholder and Roles Maturity Model](../../../../documents/administration/maturity/Stakeholder%20and%20Roles%20Maturity%20Model.md)
