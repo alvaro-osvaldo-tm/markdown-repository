@@ -1,7 +1,7 @@
 # README
 
 
->	This framework is under development in currently is in concept phase.
+>	This framework is under development and currently is in concept phase
 
 
 ## Description
@@ -11,10 +11,9 @@ If are seeking the [End-User Documentation](documents/documentation/End-User%20D
 
 ## How It Works
 
-```mermaid
-  flowchart LR
-
-```
+<p>
+	<img src="./support/repositories/images/context-diagram.svg"/>
+</p>
 
 ## Usage
 
@@ -78,7 +77,7 @@ For user related documents
 	- 
 - [Enterprise Documentation](documents/documentation/Enterprise%20Documentation.md)
 	-  [Context Diagram](documents/engineering/Context%20Diagram.md): A diagram showing a high level abstraction what's repository main entities and the relationship with other systems.
-	- [Stakeholder Catalog](documents/enterprise/Stakeholder%20Catalog.md): The stakeholders and personas that is used in development reference.
+	- [Stakeholder Catalog](documents/enterprise/catalogs/Stakeholder%20Catalog.md): The stakeholders and personas that is used in development reference.
 	-  [Problem Agreement](documents/enterprise/agreements/Problem%20Agreement.md) : The problem this repository solves
 	- [Statement of Work](documents/enterprise/agreements/Statement%20of%20Work.md): The declaration defining the expected outcome,  goals, operational concept from the enterprise perspective, solution characteristics ,quality and constraints.
 - [Systems Engineering Documentation](documents/documentation/Systems%20Engineering%20Documentation.md)
