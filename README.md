@@ -66,15 +66,10 @@ make test
 
 ## Additional information
 
-For user related documents 
-
 - [End-User Documentation](documents/documentation/End-User%20Documentation.md)
 - [Architecture Documentation](documents/documentation/Architecture%20Documentation.md)
-	- 
 - [Developer Documentation](documents/documentation/Developer%20Documentation.md)
-	- 
 - [Cybersecurity Documentation](documents/documentation/Cybersecurity%20Documentation.md)
-	- 
 - [Enterprise Documentation](documents/documentation/Enterprise%20Documentation.md)
 	-  [Context Diagram](documents/engineering/Context%20Diagram.md): A diagram showing a high level abstraction what's repository main entities and the relationship with other systems.
 	- [Stakeholder Catalog](documents/enterprise/catalogs/Stakeholder%20Catalog.md): The stakeholders and personas that is used in development reference.
