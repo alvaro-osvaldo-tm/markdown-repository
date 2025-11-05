@@ -5,19 +5,21 @@
 
 **System Vision:**
 
-The user are satisfied, both readers and editors, because readers can get updated documentation and editors can use their specialised tools  to write the documentation.
+The user are satisfied, both readers and editors, because readers can get updated documentation and editors can use their specialised tools to write the documentation.
 
 Therefore, all markdown documents are now managed in many systems , each system contribute with their functional advantages. Some systems have no Markdown support, and no system contains the governance tools to keep all documents normalised.
 
-But there is no problem, the framework can connect to each one , apply the same governance rules and even transfer document and their attachments from one system to another.
+But there is no problem, the framework can connect to each one , apply the same governance rules and even transfer documents from one system to another.
 
-We use the framework abstraction called 'Repository' to handle the different systems as all be the same, so no matter in what system the document is stored or if have full Markdown features support, we all talk about to manage the same 'Repository' abstraction.
+The document integrity is guarantee to be preserved where a document is moved from one system to another, or when is moved from a directory to another. Because the framework update and transfer the document's links and  attachments.
+
+We use the framework's abstraction called 'Repository' to handle the different systems as all be the same, so no matter in what system the document is stored or if have full Markdown features support, we all talk to manage a  'Repository' abstraction.
 
 This allow the same governance rules to be applied to all systems, ensuring conformance across all systems.
 
-The user can interact with the framework with a cli terminal application , that is deployed as standard with the framework to realize some queries or apply some standard governance governance policies as the 'Dublin Core' metadata usage that  is deployed with the framework.
+Terminal users can interact with the framework with a cli terminal application , that is deployed as standard with the framework to realize some queries or apply some standard governance policies as the 'Dublin Core' metadata usage that  is deployed with the framework.
 
-Application can be made using the framework, that allows the user to get more tools to handle the repositories.
+Applications can be made using the framework, enabling more tools for the users to handle the repositories.
 
 Onde of these applications allow to use the documents  as 'source-of-truth' for both business and technical personal. As the framework can extract and update content from documents.
 
@@ -25,9 +27,11 @@ This allowed to create applications that extract content from the repositories, 
 
 Other applications keep the documents always updated, gathering data from external sources and updating the document's content and tables.
  
- As the framework can be extended as needed, when an internal policy in the organisation changes, a new update for the extension that implements the policy is released and make available for the document governance pipeline.
+ As the framework can be extended as needed,  Python Programmers can code internal organisation document's policies in extensions, and deploy to be available the framework is activated by an external document governance pipeline.
 
 The 'governance pipeline' is an external system, that activate the framework when needed to ensure each documentation baseline conform the governance, significantly reducing manual governance effort through a continuous, automated compliance pipeline.
+
+And when the organisation policy changes, there is no problem, the Python Programmer releases a new update for the extension and the governance pipeline can update the documents again.
 
 **Problem Definition:**
 
