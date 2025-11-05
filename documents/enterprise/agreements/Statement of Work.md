@@ -7,16 +7,24 @@
 
 The user are satisfied, both readers and editors, because readers can get updated documentation and editors can use their specialised tools  to write the documentation.
 
-Therefore, all markdown documents are now managed in many systems , each system contribute with their functional advantages. Some systems have no Markdown support, an no system contains the governance tools to keep all documents normalised.
+Therefore, all markdown documents are now managed in many systems , each system contribute with their functional advantages. Some systems have no Markdown support, and no system contains the governance tools to keep all documents normalised.
 
 But there is no problem, the framework can connect to each one , apply the same governance rules and even transfer document and their attachments from one system to another.
 
 We use the framework abstraction called 'Repository' to handle the different systems as all be the same, so no matter in what system the document is stored or if have full Markdown features support, we all talk about to manage the same 'Repository' abstraction.
 
-Thanks to these abstraction, the same governance rules can also be applied to all systems and the user can also have applications to apply these same rules to documents stored in the filesystem.
+This allow the same governance rules to be applied to all systems, ensuring conformance across all systems.
 
-Also, the documents now serves as 'source-of-truth' for both business and technical personal, as the framework can extract content from documents and save in other format to be use for applications as JSON or the other-side, applications can extract content from other applications and use the framework to edit documents to update their content.
+The user can interact with the framework with a cli terminal application , that is deployed as standard with the framework to realize some queries or apply some standard governance governance policies as the 'Dublin Core' metadata usage that  is deployed with the framework.
 
+Application can be made using the framework, that allows the user to get more tools to handle the repositories.
+
+Onde of these applications allow to use the documents  as 'source-of-truth' for both business and technical personal. As the framework can extract and update content from documents.
+
+This allowed to create applications that extract content from the repositories, the save the result in JSON to be used for other applications.
+
+Other applications keep the documents always updated, gathering data from external sources and updating the document's content and tables.
+ 
  As the framework can be extended as needed, when an internal policy in the organisation changes, a new update for the extension that implements the policy is released and make available for the document governance pipeline.
 
 The 'governance pipeline' is an external system, that activate the framework when needed to ensure each documentation baseline conform the governance, significantly reducing manual governance effort through a continuous, automated compliance pipeline.
