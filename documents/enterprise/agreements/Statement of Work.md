@@ -35,7 +35,14 @@ And when the organisation policy changes, there is no problem, the Python Progra
 
 **Problem Definition:**
 
-{Describes the problem or solution that system will solve}
+<!--
+automation:
+This section should be auto-generated based in the 'Problem Agreement' document.
+-->
+
+The problem is based in the need to keep the need to automate the documents checking and governance and to keep the business and technical personal at 'same page' using documents.
+
+A more detailed explanations exists in the document [Problem Agreement](Problem%20Agreement.md).
 
 **System Mission:**
 
