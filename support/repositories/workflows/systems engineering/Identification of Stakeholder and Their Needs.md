@@ -36,30 +36,36 @@ The stakeholders need the motivation and a partial informal agreement to solve a
 
 - **Context diagram as big picture:** Always keep the [Context Diagram](../../../../documents/engineering/Context%20Diagram.md) updated during the stakeholder meetings, it serves to create a common ground for all stakeholders and enable better communication.
 - **Concept Only:** This workflow is to determine the foundational concepts gathered from stakeholders and the expected outcome. No solutions, technical details should be discussed.
-- 
 
 ## Events
 
 - **When a new concept for the system context emerges:** Improve the  [Context Diagram](../../../../documents/engineering/Context%20Diagram.md) and revise the the [Enterprise Metamodel](../../../../documents/enterprise/architecture/Enterprise%20Metamodel.md)
-- **When a technical concept or feature need to be registered or preliminary explored during stakeholder interactions:** Avoid develop a technical solution in this workflow because the focus is to develop the system concept, however, If you need to register such a concept, use the  [Discovery Catalog](../../discovery/Discovery%20Catalog.md).
+- **When a technical concept or feature need to be registered or preliminary explored during stakeholder interactions:** Avoid develop a technical solution in this workflow because the focus is to develop the system concept, however, If you need to register such concept, use the  [Discovery Catalog](../../discovery/Discovery%20Catalog.md).
 
 ## Course of Actions
 
 1. <span class="iteraction">Until the stakeholder identification is acceptable</span>
 	1. Meet the stakeholders, registry each one in the [Stakeholder Catalog](../../../../documents/enterprise/catalogs/Stakeholder%20Catalog.md) identifying preliminary their vision, frustrations, principles, needs and concerns.
+		- > [!constraint] To avoid "floating" stakeholders, each one must be related to a problem or opportunity that need be explored. 
 		- > [!note] It's also an opportunity to gather the some concepts for operational scenarios.
-		- > [!constraint] To avoid "floating" stakeholders, each one must be related to a problem. 
 	2. Identify the roles that support the stakeholders or need to be created and registry into the [Roles Catalog](../../../../documents/enterprise/catalogs/Roles%20Catalog.md)
 	3. Compile the stakeholders needs and registry in the [Needs Catalog](../../../../documents/enterprise/catalogs/Needs%20Catalog.md)
 
 2. <span class="iteraction">Until the system meaning for the business is acceptable</span>
-	1. Select some preliminary needs in the [Needs Catalog](../../../../documents/enterprise/catalogs/Needs%20Catalog.md) to be discussed in this iteration.
-		1. >[!constraint] All discussion in this iteration will be about the selected needs, event it's explicit defined in the activities.
-	2. Identify the main project, enterprise, and external constraints and limitations, both project and that can affect the needs, and registry it in the [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md)
-		1. >[!note] This will help to constraint the problem agreement
+	- > [!constraint] The [Context Diagram](../../../../documents/engineering/Context%20Diagram.md) always should reflect the 'System Vision', any change in any of them will require an update another.
+	- > [!constraint] The  [as-is-diagram](../../images/as-is-diagram.svg) always should reflect the '[Problem Agreement](../../../../documents/enterprise/agreements/Problem%20Agreement.md)' environment, any change in any of them will require an update another.
+	1. Select some preliminary needs in the [Needs Catalog](../../../../documents/enterprise/catalogs/Needs%20Catalog.md) to be discussed in this iteration, starting to showing why it was selected.
+		-  > [!constraint]  All discussion in this iteration will be about the selected needs, even it's not explicit defined in the activities.
+	2. Elicit or refine the 'System Vision' and registry in the [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md).
+		1. > [!note] You can use the [Context Diagram](../../../../documents/engineering/Context%20Diagram.md) and the storytelling approach to create the vision.
+		2. >[!note] The system vision development is an iterative work, do not expect a 'single-shot' approach to develop a mature vision.
+		3. Update the [Context Diagram](../../../../documents/engineering/Context%20Diagram.md) to reflect these system vision.
 	3. Agree with the stakeholders the problem to be solved in the [Problem Agreement](../../../../documents/enterprise/agreements/Problem%20Agreement.md).
-	4. Agree with the stakeholders the principles, the systems purpose and goals  the must be archive, the final timeline and other constraints, and registry in the [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md)
-	5. Design a preliminar [Context Diagram](../../../../documents/engineering/Context%20Diagram.md)
+		1. > [!note] You can use the stakeholder associated problem and their needs  defined in the [Stakeholder Catalog](../../../../documents/enterprise/catalogs/Stakeholder%20Catalog.md) to determine the problem to be solved.
+		2. Update the [as-is-diagram](../../images/as-is-diagram.svg) diagram reflecting the current 'As-Is' situation described in the agreement.
+	4. Identify internal and external constraints, and limitations, both for the project and the solution  that can affect the needs, and registry it in the [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md)
+		- >[!note] This will help to constraint the problem agreement
+	5. Agree with the stakeholders the principles, the systems purpose and goals  the must be archive, the final timeline and other constraints, and registry in the [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md)
 	6. Identify the main [Operational Scenarios](../../../../documents/engineering/Operational%20Scenarios.md) that the system will be exposed and act.
 	7. Use the [Enterprise Metamodel](../../../../documents/enterprise/architecture/Enterprise%20Metamodel.md) to design a preliminary [Business Model](../../../../documents/business/Business%20Model.md)  reflecting the system 'value stream', 'capabilities' and their interaction with the business. Or to show where the system fit in the enterprise achitecture.
 	8. Update the [System Requirements Specification](../../../../documents/engineering/specifications/System%20Requirements%20Specification.md) attaching:
@@ -70,7 +76,8 @@ The stakeholders need the motivation and a partial informal agreement to solve a
 		2. The [Business Model](../../../../documents/business/Business%20Model.md)
 		3. The [Problem Agreement](../../../../documents/enterprise/agreements/Problem%20Agreement.md)
 		4. The [System Requirements Specification](../../../../documents/engineering/specifications/System%20Requirements%20Specification.md)
-
+	11. Update the [Problem Agreement](../../../../documents/enterprise/agreements/Problem%20Agreement.md) attaching:
+		1. The [as-is-diagram](../../images/as-is-diagram.svg)
 
 3. <span class="iteraction">Until the system solution baseline is acceptable</span> 
 	1.  Define a preliminary [System Life-Cycle](../../../../documents/engineering/System%20Life-Cycle.md) to discuss the foundational technical aspects for the system life. 
