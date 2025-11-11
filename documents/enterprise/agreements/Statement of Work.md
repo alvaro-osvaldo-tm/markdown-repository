@@ -1,6 +1,11 @@
 # Statement of Work
 
 
+## Context Diagram
+
+![context-diagram](../../../support/repositories/images/context-diagram.svg)
+
+
 ## System Statement
 
 **System Vision:**
@@ -46,45 +51,88 @@ A more detailed explanations exists in the document [Problem Agreement](Problem%
 
 **System Mission:**
 
-{Describes the value the system brings to organisation and limits the space solution}
+- Become one of the main stream open-source projects in Markdown document manipulation and information extraction.
+- Reduce to near zero the human effort the operation of the documents governance and document-based information integration.
+- Automatically generate or update documents based in business rules data or external information.
 
 **System Purpose:**
 
 In order to satisfy the needs to archive the expected outcome, the system have the purpose:
 
-1. {Purpose item}
+1. Acts as intermediate layer between the documents systems and the users that transparently apply governance rules and extract document information
+2. Acts as a platform for document-based information integration and document generation.
+
+
+**System Goals:**
+
+
+1. 
 
 ## Scope
+
 
 ### Stakeholders
 
 ### Principles
 
+- [Lean Project Management](https://en.wikipedia.org/wiki/Lean_project_management)
+
 ### Constraints
+
+- **Niche market:** The framework is not intended to satisfy a widely document management market , but it's to focus in Python platform and Markdown document processing users.
 
 ### Limitations
 
+- **The project must be published as an open-source product the [GPL 3](https://www.gnu.org/licenses/gpl-3.0.en.html):** This ensure that derived works will follows the same license , make more easily for the community to get the source product.
+- **The project must be made in Python Programming Language:** To offer the framework for the Python Programming language market.
+
 ### Assumptions
+
+- **No great difficulty for software development:** Is not expected that the software development be challenged, because the basic Python libraries for Markdown document manipulation and generation yet exists and are mature.
 
 ### Uncertainties
 
+- **No time to end:** There is no certainties about the cost development and time required for the framework to reach maturity.
+
 ## Goals
 
-  - [ ] **{what need be delivered} ... {how much must be delivered}
+  - Transform the current situation described in the  [As-Is Diagram](../../engineering/As-Is%20Diagram.md) to the situation described in the [Context Diagram](../../engineering/Context%20Diagram.md).
+  - Develop the framework concept and design supporting the [Concept of Operations](../../engineering/Concept%20of%20Operations.md).
+  - Transform the framework design into an operational product to be integrated with the organisation document management.
+  - Publish the framework as an Open-Source Python Package in Pypi.
 
 ## Expected Outcome
 
 ### Enterprise Outcome
 
+- The metadata governance applied with near zero human effort
+- The main organisation documents and business rules integrated wit near zero human effort.
+- Get relation with the open-source community due the framework open-source publication.
+
 ### Return of Investments
+
+With the documents integrated using near zero human effort the enterprise alignment with all teams must increase assertiveness and reduce costs due the misalignment and tactical mistakes.
+
+With the assertiveness increase and the documents integration, decision and changes in business rules could be made with less effort or updated in few minutes instead hours, enabling better agility.
+
+With better agility will be possible to dedicate resources to more high value initiatives.
 
 ## Project Deliverables and Acceptance
 
 ### Major Deliverables
 
-- {Deliverable}
+All major deliverables must be made in the Pypi platform.
+
+- **Release 0.0.1:** The framework with the feature to open user file-system directories as repositories.
+- **Release 0.1.0:** The framework with the feature to automatically apply standard 'Dublin Core' metadata policies.
+- **Release 1.0.0:** The framework completely supporting the [Concept of Operations](../../engineering/Concept%20of%20Operations.md)  and acceptance criteria validated.
+
 
 ### Critical Milestones
+
+The initial milestones date starts  with this project approval:
+
+- **D+30:** The Release 0.0.1 published in PyPi.
 
 ### Acceptance Criteria
 
