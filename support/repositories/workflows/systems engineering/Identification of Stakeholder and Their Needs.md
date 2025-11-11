@@ -59,25 +59,40 @@ The stakeholders need the motivation and a partial informal agreement to solve a
 	2. Elicit or refine the 'System Vision' and registry in the [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md).
 		1. > [!note] You can use the [Context Diagram](../../../../documents/engineering/Context%20Diagram.md) and the storytelling approach to create the vision.
 		2. >[!note] The system vision development is an iterative work, do not expect a 'single-shot' approach to develop a mature vision.
-		3. Update the [Context Diagram](../../../../documents/engineering/Context%20Diagram.md) to reflect these system vision.
+		3. Update the [Context Diagram](../../../../documents/engineering/Context%20Diagram.md) to reflect the system vision.
 	3. Agree with the stakeholders the problem to be solved in the [Problem Agreement](../../../../documents/enterprise/agreements/Problem%20Agreement.md).
 		1. > [!note] You can use the stakeholder associated problem and their needs  defined in the [Stakeholder Catalog](../../../../documents/enterprise/catalogs/Stakeholder%20Catalog.md) to determine the problem to be solved.
 		2. Update the [as-is-diagram](../../images/as-is-diagram.svg) diagram reflecting the current 'As-Is' situation described in the agreement.
-	4. Identify internal and external constraints, and limitations, both for the project and the solution  that can affect the needs, and registry it in the [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md)
+	4. If necessary refine both the [Context Diagram](../../../../documents/engineering/Context%20Diagram.md) and the [As-Is Diagram](../../../../documents/engineering/As-Is%20Diagram.md)
+	5. Identify internal and external constraints, and limitations, both for the project and the solution  that can affect the needs, and registry it in the [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md)
 		- >[!note] This will help to constraint the problem agreement
-	5. Agree with the stakeholders the principles, the systems purpose and goals  the must be archive, the final timeline and other constraints, and registry in the [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md)
-	6. Identify the main [Operational Scenarios](../../../../documents/engineering/Operational%20Scenarios.md) that the system will be exposed and act.
-	7. Use the [Enterprise Metamodel](../../../../documents/enterprise/architecture/Enterprise%20Metamodel.md) to design a preliminary [Business Model](../../../../documents/business/Business%20Model.md)  reflecting the system 'value stream', 'capabilities' and their interaction with the business. Or to show where the system fit in the enterprise achitecture.
-	8. Update the [System Requirements Specification](../../../../documents/engineering/specifications/System%20Requirements%20Specification.md) attaching:
-		1. The [Operational Scenarios](../../../../documents/engineering/Operational%20Scenarios.md)
-	9. Define a preliminary [Project Life-Cycle](../../../../documents/management/project%20management/Project%20Life-Cycle.md) to discuss the system delivery to the business
-	10. Update the [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md) attaching:
+	6. Refine the 'System Statement' in the [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md) :
+		1. >[!constraint]:  The 'System Vision' must describe an high view of the interactions with the users, the environment, operations and limitations.
+		2.  > [!constraint] The 'System Mission' must describe the fundamental, enduring purpose of the system, focusing on its core strategic contribution and reason for existence.
+		3.  > [!constraint] The 'System Purpose' must describe an high view course of action to satisfy the 'System Mission'.
+		4.  > [!constraint] The 'System Goals' must describe an high view steps to satisfy the 'System Purpose'
+		5.  > [!constraint] The 'System Vision' must be directly traceable to and clearly demonstrate how the system will fulfill the 'System Mission'.
+		6.  > [!constraint] The 'System Vision' must be structured to encompass the course of action defined by the 'System Purpose' and the key achievements outlined in the 'System Goals'.
+	7. In the [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md) agree with the stakeholders:
+		1. The project [Principles](../../../../documents/enterprise/agreements/Statement%20of%20Work.md#Principles)
+		2. The project Expected Outcome and Return of Investments
+		3. The System Mission and System Purpose
+		4. The Project Goals
+		5. The Project Constraints, Limitations, Assumptions and Uncertainties.
+		6. A preliminary 'Project Deliverables and Acceptance' information with 'Major Deliverables'.
+	8. Identify the main [Concept of Operations](../../../../documents/engineering/Concept%20of%20Operations.md) that the system will be exposed and act and the 'Project Acceptance Criteria' to be registered in the [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md)
+	9. Use the [Enterprise Metamodel](../../../../documents/enterprise/architecture/Enterprise%20Metamodel.md) to design a preliminary [Business Model](../../../../documents/business/Business%20Model.md)  reflecting the system 'value stream', 'capabilities' and their interaction with the business. Or to show where the system fit in the enterprise achitecture.
+	10. Update the [System Requirements Specification](../../../../documents/engineering/specifications/System%20Requirements%20Specification.md) attaching:
+		1. The [Concept of Operations](../../../../documents/engineering/Concept%20of%20Operations.md)
+	11. Define a preliminary [Project Life-Cycle](../../../../documents/management/project%20management/Project%20Life-Cycle.md) to discuss the system delivery to the business
+	12. Update the [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md) attaching:
 		1. The [Context Diagram](../../../../documents/engineering/Context%20Diagram.md)
 		2. The [Business Model](../../../../documents/business/Business%20Model.md)
 		3. The [Problem Agreement](../../../../documents/enterprise/agreements/Problem%20Agreement.md)
 		4. The [System Requirements Specification](../../../../documents/engineering/specifications/System%20Requirements%20Specification.md)
-	11. Update the [Problem Agreement](../../../../documents/enterprise/agreements/Problem%20Agreement.md) attaching:
-		1. The [as-is-diagram](../../images/as-is-diagram.svg)
+	13. Update the [Problem Agreement](../../../../documents/enterprise/agreements/Problem%20Agreement.md) attaching:
+		1. The [As-Is Diagram](../../../../documents/engineering/As-Is%20Diagram.md).
+	14. Define both [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md) and [Problem Agreement](../../../../documents/enterprise/agreements/Problem%20Agreement.md) as baselines.
 
 3. <span class="iteraction">Until the system solution baseline is acceptable</span> 
 	1.  Define a preliminary [System Life-Cycle](../../../../documents/engineering/System%20Life-Cycle.md) to discuss the foundational technical aspects for the system life. 
