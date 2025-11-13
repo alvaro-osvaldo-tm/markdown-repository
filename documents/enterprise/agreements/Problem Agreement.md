@@ -14,6 +14,10 @@ The following stakeholder agree about this problem:
 - [Markdown Editor Linux User Persona](../stakeholders/Markdown%20Editor%20Linux%20User%20Persona/Markdown%20Editor%20Linux%20User%20Persona.md)
 - [Python Developer Persona](../stakeholders/Python%20Developer%20Persona.md)
 
+## Problem Statement
+
+The problem is increasing costs due the manual work to apply the document's governance and to keep both business and technical documents relevant.
+
 ## Problem Definition
 
 The organisation faces the need to keep both business and technical personal updated in the business rules changes, it's vital because a change in business rules affect the human labor with customer, and it must be tailored in the organisation digital information systems by the technical personal.
@@ -35,7 +39,6 @@ These work is made manually by both 'Document Management Persona' and document '
 The result is the normalised document accessible to the 'Readers'
 
 ![as-is-diagram](../../../support/repositories/images/as-is-diagram.svg)
-
 
 ### Problem Diagnosis
 
