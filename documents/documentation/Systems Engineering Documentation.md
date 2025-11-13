@@ -25,4 +25,4 @@
 ## Management
 
 [Document Management](../management/document%20management/Document%20Management.md)
-[Project Management](../management/project%20management/Project%20Management.md)
+[Project Management Document](../management/project%20management/Project%20Management%20Document.md)
