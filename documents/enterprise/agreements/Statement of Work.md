@@ -12,7 +12,15 @@
 
 The user are satisfied, both readers and editors, because readers can get updated documentation and editors can use their specialised tools to write the documentation.
 
-Therefore, all markdown documents are now managed in many systems , each system contribute with their functional advantages. Some systems have no Markdown support, and no system contains the governance tools to keep all documents normalised.
+The system acts as and intermediate layer between document systems and the users, applying governance rule transparently at each document change or when an specific event trigger the governance application.
+
+Also, thanks their capabilities to act as a platform for document-based information integration and document generation, both business and technical team work seamless, the [Document Manager Persona](../stakeholders/Document%20Manager%20Persona.md) integrated workflows in the organisation pipelines that capture information from the documents. These captured information automatically updates systems and other documents.
+
+The opposite also occurs when business rules change in external systems or sources; in this case, the pipelines activate the system that ensures the documents reflect these changes.
+
+Documents then become a source of truth where accurate information is made available to the entire organization, as well as serving as an interface for uploading and publishing information.
+
+Therefore, all markdown documents are now managed in many systems , each system contribute with their functional advantages. Some systems have no Markdown support, and no system contains the governance tools to keep all documents normalised by their own.
 
 But there is no problem, the framework can connect to each one , apply the same governance rules and even transfer documents from one system to another.
 
@@ -51,22 +59,19 @@ A more detailed explanations exists in the document [Problem Agreement](Problem%
 
 **System Mission:**
 
-- Become one of the main stream open-source projects in Markdown document manipulation and information extraction.
-- Reduce to near zero the human effort the operation of the documents governance and document-based information integration.
-- Automatically generate or update documents based in business rules data or external information.
+Continue to apply the document's governance and keep both business and technical documents relevant for their audience, with an automated product that uses near-zero human labor.
 
-**System Purpose:**
+**System Purpose and Goals:**
 
-In order to satisfy the needs to archive the expected outcome, the system have the purpose:
+In order to satisfy the system mission outcome, the system have the following purpose and their goals described as subitems:
 
 1. Acts as intermediate layer between the documents systems and the users that transparently apply governance rules and extract document information
+	1. Transform non-normalised documents into normalised documents
+
 2. Acts as a platform for document-based information integration and document generation.
+	1. Convert unstructured content from documents into semi or structured content.
+	2. Execute document transformation operations.
 
-
-**System Goals:**
-
-
-1. 
 
 ## Scope
 
