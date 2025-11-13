@@ -126,11 +126,23 @@ With better agility will be possible to dedicate resources to more high value in
 
 ### Major Deliverables
 
-All major deliverables must be made in the Pypi platform.
+- **Pre-mission Release:** The artefacts to be delivered before the mission to ensure the efforts are aimed to stakeholder expectation
+	- [Statement of Work](Statement%20of%20Work.md)
+	- Stakeholder Requirements Document:
+- **Mission Deliverables:** The internal applications that enable the enterprise capabilities and full-fill the system mission.
+	- **[Minimal Markdown Governance Application](../../management/project%20management/deliverables/Minimal%20Markdown%20Governance%20Application.md):** The minimal organisation and system capabilities implementation.
+	- **[Full Markdown Governance Application](../../management/project%20management/deliverables/Full%20Markdown%20Governance%20Application.md):** The full scope organisation and system capabilities implementation.
+	-  **[The package published in the 'PyPi' repository](../../management/project%20management/deliverables/The%20package%20published%20in%20the%20'PyPi'%20repository.md)**: The first operational release published in conformance with 'PyPi' repository, including their 'GitHub' source code and community guidelines release.
+- **Pós Mission Deliverable:** The artefacts to be delivered after the mission completion or after the mission deliverables being released.
+	- [Product Package](../../management/project%20management/deliverables/Product%20Package.md): The full project and product packed for the application life-cycle management.
 
-- **Release 0.0.1:** The framework with the feature to open user file-system directories as repositories.
-- **Release 0.1.0:** The framework with the feature to automatically apply standard 'Dublin Core' metadata policies.
-- **Release 1.0.0:** The framework completely supporting the [Concept of Operations](../../engineering/Concept%20of%20Operations.md)  and acceptance criteria validated.
+### Major Milestones
+
+These are the system deliverable as an usable product.
+
+- **[Release 0.0.1](../../management/project%20management/deliverables/Release%200.0.1.md):** The framework with the feature to open user file-system directories as repositories.
+- **[Release 0.1.0](../../management/project%20management/deliverables/Release%200.1.0.md):** The framework with the feature to automatically apply standard 'Dublin Core' metadata policies.
+- **[Release 1.0.0](../../management/project%20management/deliverables/Release%201.0.0.md):** The framework completely supporting the [Concept of Operations](../../engineering/Concept%20of%20Operations.md)  and acceptance criteria validated.
 
 
 ### Critical Milestones
