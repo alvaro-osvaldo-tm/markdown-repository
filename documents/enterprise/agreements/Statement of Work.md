@@ -101,9 +101,9 @@ In order to satisfy the system mission outcome, the system have the following pu
 
 ## Goals
 
-  - Transform the current situation described in the  [As-Is Diagram](../../engineering/As-Is%20Diagram.md) to the situation described in the [Context Diagram](../../engineering/Context%20Diagram.md).
-  - Develop the framework concept and design supporting the [Concept of Operations](../../engineering/Concept%20of%20Operations.md).
-  - Transform the framework design into an operational product to be integrated with the organisation document management.
+  - Develop the framework concept and design to support the [Concept of Operations](../../engineering/Concept%20of%20Operations.md).
+  - Produce a product that support the operations described in the [Concept of Operations](../../engineering/Concept%20of%20Operations.md).
+  - Implement the product to transform the current situation described in the  [As-Is Diagram](../../engineering/As-Is%20Diagram.md) to the situation described in the [Context Diagram](../../engineering/Context%20Diagram.md).
   - Publish the framework as an Open-Source Python Package in Pypi.
 
 ## Expected Outcome
