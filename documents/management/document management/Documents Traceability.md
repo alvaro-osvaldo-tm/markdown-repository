@@ -90,9 +90,6 @@ This document defines the repository's documents needs that satisfy , their purp
 
 **Documents:**
 
-- [Problem Agreement](../../enterprise/agreements/Problem%20Agreement.md)
-	- What was agreed as a problem to be solved.
-
 ## Engineering Documents
 
 **Needs:**
@@ -137,6 +134,7 @@ This document defines the repository's documents needs that satisfy , their purp
 
 
 
+
 ## Governance Documents:
 
 **Needs:**
@@ -149,29 +147,64 @@ This document defines the repository's documents needs that satisfy , their purp
 
 **Stakeholders:**
 
-- [Enterprise Architect Persona](../../enterprise/stakeholders/Enterprise%20Architect%20Persona.md)
-- [Document Manager Persona](../../enterprise/stakeholders/Document%20Manager%20Persona.md)
-- [Project Manager Persona](../../enterprise/stakeholders/Project%20Manager%20Persona.md)
-- [Systems Engineer Persona](../../enterprise/stakeholders/Systems%20Engineer%20Persona.md)
 
 **Documents:**
 
 - [Statement of Work](../../enterprise/agreements/Statement%20of%20Work.md)
-	- What meaning the product  will bring for the enterprise 
-		- What outcome in the enterprise is expected from the framework
-		- What outcome in operation is expected from the framework
-	- What will be done
-		- What is the product scope
-		- What the product not need do
-		- What is the product the acceptance criteria
-	- How the product will be done
-		- What Critical Milestones need be delivered
-		- What approach will be used for their project life-cycle
-	- Who are the responsible for the framework
-		- Who is responsible for the change management
+	- **Stakeholders**
+		- [Markdown Editor Linux User Persona](../../enterprise/stakeholders/Markdown%20Editor%20Linux%20User%20Persona/Markdown%20Editor%20Linux%20User%20Persona.md)
+		- [Python Developer Persona](../../enterprise/stakeholders/Python%20Developer%20Persona.md)
+	- **Viewpoint:**
+		- Product contract and project governance
+	- **Concerns:**
+		- What meaning the product  will bring to the enterprise 
+			- What outcome in the enterprise is expected from the framework
+			- What outcome in operation is expected from the framework
+		- What will be done
+			- What is the product scope
+			- What the product not need do
+			- What is the product the acceptance criteria
+		- How the product will be done
+			- What Critical Milestones need be delivered
+			- What approach will be used for their project life-cycle
+		- Who are the responsible for the framework
+			- Who is responsible for the change management
+	- **Guidelines**
+		- **Creating a System Statement**
 - [Document Management](Document%20Management.md)
 	- How the documents are governed
 - [Documents Traceability](Documents%20Traceability.md)
 	- How the documents are related to stakeholders.
 - [Project Life-Cycle](../project%20management/Project%20Life-Cycle.md)
 	- What is the project life-cycle
+- [Problem Agreement](../../enterprise/agreements/Problem%20Agreement.md)
+	- **Viewpoint:**
+		- Agreement Need
+		- Problem Context
+	- **Concerns:**
+		- **Governance**
+			- Who agree about the problem definition
+			- What was agreed as a problem to be solved.
+		- [Problem Definition](../../enterprise/agreements/Problem%20Agreement.md#Problem%20Definition)
+			- Why it's a problem
+			- What are the problem boundaries
+			- Who is affected
+			- Why the solution is need
+			- What consequences exists if the problem is not solved
+			- What defense mechanisms are failing
+		- [Symptoms and Consequences](../../enterprise/agreements/Problem%20Agreement.md#Symptoms%20and%20Consequences)
+			- What are the triggers that activate the problem
+			- What are the problem consequences.
+			- What happens to the organisation when the problem occur.
+			- What solutions was done before and failed
+		- [Problem Diagnosis](../../enterprise/agreements/Problem%20Agreement.md#Problem%20Diagnosis)
+			- What are the problem root-cause
+		-  **Guidelines**
+			- **Discovering problems:**
+				- Look for the entities, what their purposes and why it's not accomplishing.
+
+- [As-Is Diagram](../../engineering/As-Is%20Diagram.md)
+	- **Viewpoint:**
+		- Problem Context
+	- **Concerns:**
+		- What are the problem's context
