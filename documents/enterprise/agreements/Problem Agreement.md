@@ -14,6 +14,15 @@ The following stakeholder agree about this problem:
 - [Markdown Editor Linux User Persona](../stakeholders/Markdown%20Editor%20Linux%20User%20Persona/Markdown%20Editor%20Linux%20User%20Persona.md)
 - [Python Developer Persona](../stakeholders/Python%20Developer%20Persona.md)
 
+## Problem Partitions
+
+To make more easily to read this document and manage the problem agreed, the problem was partitioned as below:
+
+- **Governance Implementation:** The implementation and maintenance of the document governance rules 
+- **Information Integrity:** The overall integrity e equivalency between documents and information systems.
+- **Links Integrity:** The document's integrity to valid attachments and documents reference.
+
+
 ## Problem Origin
 
 This document origin have the following unsatisfied needs from the referenced stakeholders:
@@ -75,12 +84,20 @@ The result is the normalised document accessible to the 'Readers'
 
 ![as-is-diagram](../../../support/repositories/images/as-is-diagram.svg)
 
-
 ### Symptoms and Consequences 
 
-This sections describes the main symptoms and their consequences found in the problem in observation.
+
+In problem observed, the main symptoms found are: 
+
+- For every changes or transfer, someone need to manually  find the related documents and information systems to apply these changes, aborting the processes if more changes come before finished the previous. 
+
+As consequence:
+
+- The information in documents and systems loose their integrity or are left obsolete  and mistes are made in the manual changes, resulting in need more changes need.
 
 Alternatives to solve these issues as using documents baselines and scheduling updates after a considerable amount of business rules changes was proven inefficient because it accumulate so much changes to be manually done and locks the organisation operations.
+
+The section below details the observations.
 
 **Governance Implementation:**
 
@@ -108,7 +125,7 @@ Alternatives to solve these issues as using documents baselines and scheduling u
 
 **Links Integrity:**
 
-1. When a document directory changes, or the document needs to be transfered to another repository software, mostly of the links curation and files attachment transfer need be manually made.
+1. When a document directory changes, or the document needs to be transferred to another repository software, mostly of the links curation and files attachment transfer need be manually made.
 	1. As consequence:
 		1. It became a huge work  unsustainable for the organisation and poorly executed due their complexity leading to artefacts losses or documents link integrity losses.
 	2. Triggers:
