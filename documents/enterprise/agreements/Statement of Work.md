@@ -8,18 +8,34 @@
 
 ## System Statement
 
-**Problem Definition:**
+### Problem Definition
 
 <!--
 automation:
 This section should be auto-generated based in the 'Problem Agreement' document.
 -->
 
-The problem is based in the need to keep the need to automate the documents checking and governance and to keep the business and technical personal at 'same page' using documents.
+The problem is that the amount of required resources to apply changes in documents is not affordable for the organisation.
+
+Was observed that:
+
+- For every changes or transfer, someone need to manually  find the related documents and information systems to apply these changes, aborting the processes if more changes come before finished the previous. 
+
+As consequence:
+
+- The information in documents and systems loose their integrity or are left obsolete  and mistes are made in the manual changes, resulting in need more changes need.
+
+The root cause discovered is that for each major change in the documents require more resources than is available in organisation to  complete safety due the increasing required manual work for each change.
+
+To make more easily to understand , the problem was partitioned in the following parts:
+
+**Governance Implementation:**
+**Information Integrity:**
+**Links Integrity:**
 
 A more detailed explanations exists in the document [Problem Agreement](Problem%20Agreement.md).
 
-**System Vision:**
+### System Vision
 
 The user are satisfied, both readers and editors, because readers can get updated documentation and editors can use their specialised tools to write the documentation.
 
@@ -57,23 +73,40 @@ The 'governance pipeline' is an external system, that activate the framework whe
 
 And when the organisation policy changes, there is no problem, the Python Programmer releases a new update for the extension and the governance pipeline can update the documents again.
 
+### System Mission
 
-
-**System Mission:**
+The system have the following the general mission:
 
 1. Continue to apply the document's governance and keep both business and technical documents relevant for their audience, with an automated product that uses near-zero human labor.
 2. Promote the initiative in the community with the product published as open-source in 'Pypi' and 'GitHub'.
 
-**System Purpose and Goals:**
+Based in the their [Problem Partitions](Problem%20Agreement.md#Problem%20Partitions), the system have the following specific missions:
 
-In order to satisfy the system mission outcome, the system have the following purpose and their goals described as subitems:
+- **Governance Implementation:**
+	1. Support the document's governance implementation life-cycle for the supported documents for the supported storage platform.
+- **Information Integrity:**
+	1. Provides the capabilities to process that ensure that information in document's and information system are both equivalent. 
+- **Links Integrity:**
+	1. Guard the document's links integrity , supervising attachments transfer and documents location moving, blocking actions that corrupt the document's state.
+
+### System Purpose and Goals
+
+In order to satisfy the system mission outcome, the system have the following purpose and their general goals described as subitems, and the specific goals partitioned according to the [Problem Partitions](Problem%20Agreement.md#Problem%20Partitions):
 
 1. Acts as intermediate layer between the documents systems and the users that transparently apply governance rules and extract document information
 	1. Transform non-normalised documents into normalised documents
+		**Governance Implementation:**
+		**Information Integrity:**
+		**Links Integrity:**
+		1. 
 
 2. Acts as a platform for document-based information integration and document generation.
 	1. Convert unstructured content from documents into semi or structured content.
 	2. Execute document transformation operations.
+	**Governance Implementation:**
+	**Information Integrity:**
+	**Links Integrity:**
+	3. 
 
 
 ## Scope
