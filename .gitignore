@@ -2,6 +2,14 @@
 
 ## Builds
 
+## NodeJS Runtime
+
+node_modules
+
+## Python Runtine
+
+*.pyc
+
 ## Binary files
 *.jpg
 
@@ -12,7 +20,13 @@
 ## Editors
 
 *.swp
+*.ods#
+*.odt#
 
+## IDEs
+
+.code
+.idea
 
 ## Support Tools
 .obsidian
