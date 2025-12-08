@@ -18,13 +18,40 @@ flowchart TD;
 
 start((" ")) --> Concept
 
-Concept --> Analysis --> Design
-Design -->  Implementation --> Testing
+subgraph Pre-mission Phase
+	Concept 
+	Analysis 
+	Design
+	Review
+end
 
-Testing --> Operation["Operation and Control"]
-Operation --> Maintenance --> Testing
+subgraph Mission Phase
+	Production
+	Implementation
+	Testing
+	Maintenance
+end
 
-Operation --> Disposal --> _end((" "))
+subgraph Post-Mission Phase
+	Packaging
+end
+
+	Concept <--> Analysis <--> Design
+	Review
+
+Design <--> Review --> Concept
+
+Review -->  Production <--> Implementation
+
+Implementation <--> Testing
+
+Testing <--> Maintenance
+
+Testing --> Packaging
+Maintenance --> Packaging
+
+
+Packaging --> _end((" "))
 
 style start fill:white,stroke:black,stroke-width:2px
 style _end fill:black,stroke:black,stroke-width:2px
@@ -36,108 +63,76 @@ linkStyle default stroke-width:1px
 ## Course of Actions
 
 ### Concept
-  
-**Purpose**
 
-**Goals and Objectives**
-
-- [x] Ter o projeto organizado para sua execução
-- [x] Ter um conceito do que a proposta de solução irá atingir
+Transform the stakeholder expectations into the formal documents that materialize the stakeholder agreement about their needs, the problem to be solved and space-solution.
 
 **Actions**
 
-- [x] Organize the project structure
-- [x] Organize the problem specification for the solution proposal
+- Execute the [System Concept Value Stream](../../enterprise/value%20stream/main%20value%20stream/System%20Concept%20Value%20Stream.md)
 
 **Deliverables**
 
-- [x] The project structure
-- [x] Specifications for the solution proposal development
+- [Statement of Work](../../enterprise/agreements/Statement%20of%20Work.md)
+- [Concept of Operations](../../engineering/Concept%20of%20Operations.md)
+- Functional Baseline
 
-### Development
-
-**Purpose**
-
-**Goals and Objectives**
-
-- [x] Transformar a especificação da proposta de solução em um storytelling
+### Analysis
 
 **Actions**
-
-- [x] Transformar a proposta de solução em uma storytelling.
-
 **Deliverables**
 
-- Os artefatos em fase de desenvolvimento:
-  - [ ] {Artefato}
+- 
+
+
+###  Design
+
+**Actions**
+**Deliverables**
+
+- Allocated Baseline
+- Product Baseline
 
 ### Review
 
-**Purpose**
-
-**Goals and Objectives**
-
-- [x] Garantir a conformidade dos artefatos com as especificações
-
-**Action**
-
-- [x] Revisar os artefatos para verificar a conformidade com as especificações
-
+**Actions**
 **Deliverables**
 
-### Production
-
-**Purpose**
-
-**Goals and Objectives**
-
-- [x] Produzir a versão final para ser entregue
+###  Production
 
 **Actions**
-
-- [x] {Action}
-- [x] Revisar antes de enviado para operação
-
 **Deliverables**
 
-### Operation
+- Release 0.0.1
+- The published release 0.0.1 in the 'PyPi' repository
 
-**Purpose**
-
-**Goals and Objectives**
+### Implementation
 
 **Actions**
 
 **Deliverables**
+
+- [Minimal Markdown Governance Application](deliverables/Minimal%20Markdown%20Governance%20Application.md)
+
+### Testing
+
+**Actions**
+**Deliverables**
+
+- Release 0.1.0
 
 ### Maintenance
 
-**Purpose**
-
-**Goals and Objectives**
-
 **Actions**
-
 **Deliverables**
 
-### Disposal
+- Release 1.0.0
+- [Full Markdown Governance Application](deliverables/Full%20Markdown%20Governance%20Application.md)
 
-**Purpose**
 
-**Goals and Objectives**
+### Packaging
 
-- [x] Garantir que o projeto esteja arquivado para consulta e uso futuro
 
 **Actions**
-
-- [x] Reduzir espaço no produto diretório de projeto
-  - [x] Remover o diretório  '*.git*'
-- [x] Compactar o projeto em um único arquivo
-- [x] Gerar o código de 'checksum' do arquivo compactado
-- [x] Entregar o projeto no arquivo compactado junto com o arquivo checksum
-
 **Deliverables**
 
-- [x] O projeto armazenado em um arquivo comprimido
-- [x] O Checksum do arquivo comprimido
-
+- The full project and product packed for the application life-cycle management.
