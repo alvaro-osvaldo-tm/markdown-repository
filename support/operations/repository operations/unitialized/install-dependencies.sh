@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# metamodel:local.bash.basic/v1
+#metamodel:local.bash.basic/v1
 
 function help() {
     :

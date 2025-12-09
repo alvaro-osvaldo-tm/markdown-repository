@@ -3,14 +3,15 @@
 #
 
 operation-metamodels-validatation-run:
-	${BWRAP} ${BATS} tests/support/operations/repository\ operations/*.bats
-	
+	${BWRAP} tests/support/metamodels/repository\ metamodels/run-all-metamodels-tests.sh
 
+.ONESHELL:
 operation-metamodels-validatation-watch:
 
-	find \
-		support/workflows/operations \
-		support/operations/repository\ operations \
-		tests/support/operations/repository\ operations \
-		-type f | entr -rc make operation-metamodels-validatation-run
+		( 
+			bash "./support/operations/repository introspection/list-all-operations-scripts.sh"
+			find tests/support/metamodels -type f
+
+		) | entr -rc make operation-metamodels-validatation-run
+
 	
