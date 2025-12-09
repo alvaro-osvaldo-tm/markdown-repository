@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 
-
 set -e
-
 
 cd "$(git rev-parse --show-toplevel)"
 
@@ -10,9 +8,8 @@ cd "$(git rev-parse --show-toplevel)"
 
     metamodel="$(bash support/operations/file\ introspection/get-file-metamodel.sh "$script")"
 
-
     if [[ "$metamodel" == "local.bash.basic/v1" ]]; then
-        bats tests/support/metamodels/repository\ metamodels/local.bash.basic.bats
+        SCRIPT="$script" bats tests/support/metamodels/repository\ metamodels/local.bash.basic.bats
     else
         printf "[ERROR] No metamodel was defined for '%s'\n" "$script"
     fi
