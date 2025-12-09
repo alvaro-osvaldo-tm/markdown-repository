@@ -1,5 +1,5 @@
 # metamodel:local.repository.basic/v1
-
+SHELL=/bin/bash
 .SHELLFLAGS=-ec
 .PHONY: prepare format
 
