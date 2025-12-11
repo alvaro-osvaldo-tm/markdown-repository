@@ -1,4 +1,4 @@
 
 
-source $(dirname ${BASH_ARGV[0]})/bats/logging.inc.sh
-source $(dirname ${BASH_ARGV[0]})/bats/test-state.inc.sh
+source "$(git rev-parse --show-toplevel)"/support/infrastructure/bash.inc.sh
+source "$(git rev-parse --show-toplevel)"/tests/infrastructure/bats/test-state.inc.sh

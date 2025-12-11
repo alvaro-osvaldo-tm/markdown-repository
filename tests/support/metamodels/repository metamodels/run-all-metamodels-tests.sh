@@ -4,7 +4,10 @@ set -e
 
 cd "$(git rev-parse --show-toplevel)"
 
+source ./support/infrastructure/bash.inc.sh
+
 bash ./support/operations/repository\ introspection/list-all-operations-scripts.sh | grep -E '.sh$' | while read -e script ; do
+    
 
     metamodel="$(bash support/operations/file\ introspection/get-file-metamodel.sh "$script")"
 
@@ -13,14 +16,14 @@ bash ./support/operations/repository\ introspection/list-all-operations-scripts.
         TEST="tests/support/metamodels/repository metamodels/local.bash.basic.bats"
         SCRIPT="$script"
 
+        info "Script '$script' is being tested."   
+
         if ! TEST="$TEST" SCRIPT="$script" make bats ; then
-            printf "[ERROR] Script '%s' failed to pass validation.\n" "$script"
+            error "Script $script' failed to pass validation."
         fi
         
     else
-        printf "[ERROR] File '%s' have no metamodel defined\n" "$script"
+        error "File '$script' have no metamodel defined."
     fi
-
-
 
 done

@@ -1,6 +1,6 @@
 setup() {
 
-    source tests/infrastructure/bats.inc.sh
+    source "$(git rev-parse --show-toplevel)/tests/infrastructure/bats.inc.sh"   
 
     if was_test_started; then
         return 0
@@ -24,9 +24,6 @@ function validate_file() {
     elif [[ ! -r "$file" ]]; then    
         fatal "The file '$file' is not readable"
     fi
-
-    info "Script '$file' is being tested."   
-
 
 }
 
