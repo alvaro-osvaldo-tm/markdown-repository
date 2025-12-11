@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"name": "Repository Operations",
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/.DS_Store": true,
+			"**/Thumbs.db": true,
+			"**/.obsidian/**": true,
+			"**/node_modules": true,
+			"**/.trash": true,
+			"**/builds": true,
+			"**/documents": true,
+			"**/sources": true,
+			"**/.vscode": false,
+			"**/tests": false,
+			"*.*": true,
+			"support/configurations": true,
+			"support/repositories": true,
+			"support/operations/system operations": true,
+			"support/tools": true,
+			"support/workflows/repository": true,
+			"support/workflows/source-code": true,
+		}
+	}
+}
