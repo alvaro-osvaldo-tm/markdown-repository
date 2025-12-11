@@ -6,8 +6,7 @@ set -e
 cd "$(git rev-parse --show-toplevel)"
 
 find \
-    support/workflows/ \
-    support/operations/ \
-    tests/support/ \
+    support \
+    tests \
     -type f \
     -wholename '**/*.sh' -o -wholename '**/*.Makefile' \
