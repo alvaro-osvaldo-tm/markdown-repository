@@ -30,9 +30,15 @@ The System Concept (Conceptual Model), materialized in the core Systems Engineer
 		2. [Identification of Stakeholder and Their Needs](../../../../support/repositories/workflows/systems%20engineering/Identification%20of%20Stakeholder%20and%20Their%20Needs.md)
 			1. [Needs Catalogue Creation Workflow](../../../../support/repositories/workflows/systems%20engineering/Needs%20Catalogue%20Creation%20Workflow.md)
 			2. [Problem Agreement Workflow](../../../../support/repositories/workflows/systems%20engineering/Problem%20Agreement%20Workflow.md)
-			3. [System Statement Concept Workflow](../../../../support/repositories/workflows/systems%20engineering/System%20Statement%20Concept%20Workflow.md)
-			4. [Concept of Operation Concept Workflow](../../../../support/repositories/workflows/systems%20engineering/Concept%20of%20Operation%20Concept%20Workflow.md)
-			5. [Solution Deliverable Concept Workflow](../../../../support/repositories/workflows/systems%20engineering/Solution%20Deliverable%20Concept%20Workflow.md)
+			3. **Foundation Needs Elicitation**
+				1. [System Statement Concept Workflow](../../../../support/repositories/workflows/systems%20engineering/System%20Statement%20Concept%20Workflow.md)
+				2. [Concept of Operation Concept Workflow](../../../../support/repositories/workflows/systems%20engineering/Concept%20of%20Operation%20Concept%20Workflow.md)
+				3. [Solution Deliverable Concept Workflow](../../../../support/repositories/workflows/systems%20engineering/Solution%20Deliverable%20Concept%20Workflow.md)
+			4. **Specific Needs Elicitation**
+				1. ...
+				2. ...
+				3. ...
+			5. Revision
 		3. [Feasibility Analysis](../../../../support/repositories/workflows/systems%20engineering/Feasibility%20Analysis.md)
 		4. [Requirements Analysis](../../../../support/repositories/workflows/systems%20engineering/Requirements%20Analysis.md)
 		5. [System-Level Synthesis](../../../../support/repositories/workflows/systems%20engineering/System-Level%20Synthesis.md)
