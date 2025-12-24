@@ -6,7 +6,8 @@ set -e
 declare -A options
 
 options[help]=0
-options[only-bash-app]=0
+options[only-app]=0
+options[include-tests]=1
 options[filter]=''
 
 function help() {
@@ -16,7 +17,8 @@ function help() {
     printf "Options:\n"    
     printf "  %2.2s, %-16.16s    %s\n" "-h" "--help" "Show this help message"
     printf "  %2.2s, %-16.16s    %s\n" "-r" "--run" "Run script functionality"
-    printf "  %2.2s, %-16.16s    %s\n" "-b" "--only-bash-app" "Report only bash applications"
+    printf "  %2.2s, %-16.16s    %s\n" "-b" "--only-app" "Report only applications"
+    printf "  %2.2s, %-16.16s    %s\n" "-t" "--exclude-tests" "Exclude operational tests scripts"
     printf "\n"
 
 }
@@ -30,7 +32,7 @@ function configure() {
         arguments='--help'
     fi
 
-    if ! arguments=$(getopt --long 'help,run,only-bash-app' -o 'h,r,b' -n "$(basename "$0")" -- $arguments)  ; then
+    if ! arguments=$(getopt --long 'help,run,only-app,exclude-tests' -o 'h,r,b,t' -n "$(basename "$0")" -- $arguments)  ; then
         printf "[FATAL] Option no recognized\n"
         help    
         exit 255
@@ -52,8 +54,13 @@ function configure() {
                 shift
                 continue
             ;;            
-            --only-bash-app | -b )
-                options[only-bash-app]=1
+            --only-app | -b )
+                options[only-app]=1
+                shift
+                continue
+            ;;
+            --exclude-tests | -t )
+                options[include-tests]=0
                 shift
                 continue
             ;;
@@ -91,25 +98,27 @@ function move_to_git_root_directory() {
     cd "$(git rev-parse --show-toplevel)"    
 }
 
-function list_all_operational_scripts() {
+function list_operational_scripts() {
 
     find \
         support \
+        -type f \
+        -wholename '**/*.sh' -o -wholename '**/*.Makefile'
+
+}
+
+function list_tests_scripts() {
+
+    find \
         tests \
         -type f \
         -wholename '**/*.sh' -o -wholename '**/*.Makefile'
 
 }
 
-function filter_list_according_to_options() {
 
-    if [[ "${options[only-bash-app]}" -eq 1  ]]; then
-
-        grep -E '^.*\.sh$' | grep -v '\.inc\.sh'
-        
-    else
-        cat
-    fi
+function filter_only_applications() {
+        grep -E '^.*\.sh$' | grep -v '\.inc\.sh'    
 }
 
 
@@ -117,8 +126,24 @@ function main() {
     
     move_to_git_root_directory
 
-    list_all_operational_scripts |
-    filter_list_according_to_options
+    (
+
+        list_operational_scripts
+
+        if [[ "${options[include-tests]}" -eq 1 ]]; then
+            list_tests_scripts
+        fi   
+
+    )  | (
+
+        if [[ "${options[only-app]}" -eq 1  ]]; then
+            filter_only_applications
+        else
+            cat
+        fi
+
+    )
+
 
      
 }
