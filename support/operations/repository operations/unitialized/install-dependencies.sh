@@ -1,4 +1,4 @@
-    #!/usr/bin/env bash
+#!/usr/bin/env bash
 #metamodel:local.bash.basic/v1
 
 set -e
@@ -12,7 +12,8 @@ function help() {
     printf "Usage: %s [options]\n" "$(basename "$0")"
     printf "%s\n" "This is a description for the script template"
     printf "Options:\n"    
-    printf "  %2.2s, %-16.16s    %s\n" "-h" "--help" "Show this help message"     
+    printf "  %2.2s, %-16.16s    %s\n" "-h" "--help" "Show this help message"
+    printf "  %2.2s, %-16.16s    %s\n" "-h" "--run" "Execute dependencies installation"
     printf "\n"
 
 }
@@ -26,7 +27,7 @@ function configure() {
         arguments='--help'
     fi
 
-    if ! arguments=$(getopt --long 'help' -o 'h' -n "$(basename "$0")" -- "$arguments")  ; then
+    if ! arguments=$(getopt --long 'help,run' -o 'h,r' -n "$(basename "$0")" -- "$arguments")  ; then
         help    
         exit 255
     fi
@@ -42,6 +43,11 @@ function configure() {
             shift
             continue
             ;;
+            --run | -r)
+            options[run]=1
+            shift
+            continue            
+            ;;
             -- )
             break
             ;;            
@@ -50,20 +56,34 @@ function configure() {
         esac
      
     done
+
+    if [[ "${options[run]}" -eq 0 ]]; then
+        options[help]=1
+    fi    
     
     if [[ "${options[help]}" -eq 1 ]]; then
         help
         exit 0
     fi
 
+    trap INT abort
+
 }
 
 function abort() {
-    :
+    printf "Script Aborted\n"
+    exit 6
 }
 
+
+function install_nodejs_dependencies() {
+    npm install
+}
+
+
 function main() {
-    :
+
+    install_nodejs_dependencies
 }
 
 configure "$@"
