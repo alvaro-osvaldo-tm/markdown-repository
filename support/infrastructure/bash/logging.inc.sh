@@ -4,7 +4,7 @@ function fatal() {
     local code=$2
     
     setterm --foreground red --bold on
-    printf "%-8.8s"  "[FATAL]"
+    printf "%-10.10s"  "[FATAL]"
 
     setterm --default
     printf "%s\n" "$message"
@@ -20,7 +20,7 @@ function error() {
     local code=$2
     
     setterm --foreground red --bold on --blink on
-    printf "%-8.8s" "[ERROR]"
+    printf "%-10.10s" "[ERROR]"
 
     setterm --default
     printf "%s\n" "$message"
@@ -34,7 +34,20 @@ function info() {
     local code=$2
     
     setterm --foreground white --bold on
-    printf "%-8.8s" "[INFO]"
+    printf "%-10.10s" "[INFO]"
+
+    setterm --default
+    printf "%s\n" "$message"
+    
+} 
+
+
+function success() {
+    local message="$1"
+    local code=$2
+    
+    setterm --foreground green --bold on
+    printf "%-10.10s" "[SUCCESS]"
 
     setterm --default
     printf "%s\n" "$message"
