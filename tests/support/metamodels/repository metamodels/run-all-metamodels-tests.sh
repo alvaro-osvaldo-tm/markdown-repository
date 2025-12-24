@@ -6,7 +6,7 @@ cd "$(git rev-parse --show-toplevel)"
 
 source ./support/infrastructure/bash.inc.sh
 
-bash ./support/operations/repository\ introspection/list-all-operations-scripts.sh | grep -E '.sh$' | while read -e script ; do
+bash ./support/operations/repository\ introspection/list-all-operations-scripts.sh --run | grep -E '.sh$' | while read -e script ; do
     
 
     metamodel="$(bash support/operations/file\ introspection/get-file-metamodel.sh "$script")"

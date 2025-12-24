@@ -9,7 +9,8 @@ operation-metamodels-validatation-run:
 operation-metamodels-validatation-watch:
 
 		( 
-			bash "./support/operations/repository introspection/list-all-operations-scripts.sh"
+			
+			bash "./support/operations/repository introspection/list-all-operations-scripts.sh" --run
 			find tests/infrastructure tests/support/metamodels -type f
 
 		) | entr -rc make operation-metamodels-validatation-run
