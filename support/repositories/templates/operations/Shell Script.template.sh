@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 #metamodel:local.bash.basic/v1
 
-
 set -e
 
 declare -A options
@@ -13,7 +12,8 @@ function help() {
     printf "Usage: %s [options]\n" "$(basename "$0")"
     printf "%s\n" "This is a description for the script template"
     printf "Options:\n"    
-    printf "  %2.2s, %-16.16s    %s\n" "-h" "--help" "Show this help message"     
+    printf "  %2.2s, %-16.16s    %s\n" "-h" "--help" "Show this help message"
+    printf "  %2.2s, %-16.16s    %s\n" "-h" "--run" "{Run script functionality}"
     printf "\n"
 
 }
@@ -27,7 +27,8 @@ function configure() {
         arguments='--help'
     fi
 
-    if ! arguments=$(getopt --long 'help' -o 'h' -n "$(basename "$0")" -- "$arguments")  ; then
+    if ! arguments=$(getopt --long 'help,run' -o 'h,r' -n "$(basename "$0")" -- "$arguments")  ; then
+        printf "[FATAL] Option not recognised\n"
         help    
         exit 255
     fi
@@ -43,6 +44,11 @@ function configure() {
             shift
             continue
             ;;
+            --run | -r)
+            options[run]=1
+            shift
+            continue
+            ;;            
             -- )
             break
             ;;            
@@ -52,23 +58,29 @@ function configure() {
      
     done
     
+    trap abort SIGABRT
+    trap abort SIGINT
+
+
+    if [[ "${options[run]}" -eq 0 ]]; then
+        options[help]=1
+    fi    
+
     if [[ "${options[help]}" -eq 1 ]]; then
         help
         exit 0
     fi
 
 
-    trap INT abort
-
 }
 
 function abort() {
-    info "Script aborted"
-    exit 255
+    printf "[INFO] Script aborted\n"
+    exit 6
 }
 
 function main() {
-    :
+    return 0
 }
 
 configure "$@"
