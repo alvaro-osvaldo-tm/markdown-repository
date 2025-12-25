@@ -1,29 +1,95 @@
 #!/usr/bin/env bash
 
 set -e
-
-cd "$(git rev-parse --show-toplevel)"
-
 source ./support/infrastructure/bash.inc.sh
 
-bash ./support/operations/repository\ introspection/list-all-operations-scripts.sh --run --only-app | while read -e script ; do
-    
+function move_to_git_root_directory() {
+    cd "$(git rev-parse --show-toplevel)"
+}
 
-    metamodel="$(bash support/operations/file\ introspection/get-file-metamodel.sh "$script")"
+function list_all_scripts_for_testing() {
+    bash ./support/operations/repository\ introspection/list-all-operations-scripts.sh --run --only-app
+}
 
-    if [[ "$metamodel" == "local.bash.basic/v1" ]]; then
+function have_script_defined_metamodel() {
+    local metamodel="$1"
+    [[ ! -z "$metamodel" ]]
+}
 
-        TEST="tests/support/metamodels/repository metamodels/local.bash.basic.bats"
-        SCRIPT="$script"
+function is_metamodel_supported() {
+    local metamodel="$1"
+    [[ "$metamodel" == "local.bash.basic/v1" ]]
+}
 
-        info "Script '$script' is being tested."   
+function get_script_metamodel() {    
+    local script="$1"
+    bash support/operations/file\ introspection/get-file-metamodel.sh "$script"
+}
 
-        if ! TEST="$TEST" SCRIPT="$script" make bats ; then
-            error "Script $script' failed to pass validation."
-        fi
-        
-    else
-        error "File '$script' have no metamodel defined."
-    fi
 
-done
+function get_test_for_metamodel() {
+
+    local metamodel="$1"
+    local test=""
+
+    if [[ "$metamodel" == "local.bash.basic/v1" ]];  then
+        test="tests/support/metamodels/repository metamodels/local.bash.basic.bats"
+    fi        
+
+    printf "%s" "$test"
+
+}
+
+function execute_test_for_script() {
+
+    local script="$1"
+    local metamodel="$2"
+    local test=""
+
+    test="$(get_test_for_metamodel)"
+
+    TEST="$test" SCRIPT="$script" make bats > /dev/null 2> /dev/null 
+}
+
+function report_error_for_script() {
+
+    local script="$1"
+    local metamodel="$2"
+    local test=""
+
+    test="$(get_test_for_metamodel)"
+
+    TEST="$test" SCRIPT="$script" make bats || true
+}
+
+function main() {
+
+    list_all_scripts_for_testing |  while read -e script ; do
+
+        metamodel="$(get_script_metamodel "$script")"
+
+        if ! have_script_defined_metamodel "$metamodel" ; then
+
+            error "Script '$script' have no metamodel defined."
+            continue        
+
+        elif ! is_metamodel_supported "$metamodel"; then
+
+            error "Script '$script' have unknow metamodel. metamodel='$metamodel'."
+            continue
+
+        elif ! execute_test_for_script "$script" "$metamodel" ; then
+
+            error "Script $script' failed to pass validation." 
+            report_error_for_script "$script" "$metamodel"
+            continue
+
+        fi 
+
+        success "Script '$script' passed."   
+
+    done
+
+}
+
+main
