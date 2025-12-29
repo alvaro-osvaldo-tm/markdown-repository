@@ -27,12 +27,11 @@ function configure() {
         arguments='--help'
     fi
 
-    if ! arguments=$(getopt --long 'help,run' -o 'h,r' -n "$(basename "$0")" -- "$arguments")  ; then
-        printf "[FATAL] Option not recognised\n"
-        help    
-        exit 255
-    fi
-        
+	if ! arguments=$(getopt --long 'help,run' -o 'h,r' -n "$(basename "$0")" -- $arguments); then
+		printf "[FATAL] Option not recognised\n"
+		help
+		exit 255
+	fi
 
     eval set -- "$arguments"
 
