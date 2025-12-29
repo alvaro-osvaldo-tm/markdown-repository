@@ -1,6 +1,10 @@
 # Enterprise Documentation
 
 
+## Stakeholders 
+
+- [Stakeholder Catalog](../enterprise/catalogs/Stakeholder%20Catalog.md)
+
 ## Enterprise Architecture
 
 [Enterprise Metamodel](../enterprise/architecture/Enterprise%20Metamodel.md)

@@ -162,7 +162,7 @@ Ensure the correctly practices for the framework life-cycle to archive the expec
 	- **Related Problem**
 	- **Discovered Concepts**
 
-- ´[Git Repository Contributor Persona](../stakeholders/Git%20Repository%20Contributor%20Persona.md)]
+- [Git Repository Contributor Persona](../stakeholders/Git%20Repository%20Contributor%20Persona.md)
 	- {description | case description}
 	- **Vision:**
 	- **Frustrations:**

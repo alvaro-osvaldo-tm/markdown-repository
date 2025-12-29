@@ -1,6 +1,4 @@
-# Vulnerabilities Assessment Discovery 
-
-
+# Vulnerabilities Assessment Discovery
 
 This assessment list some vulnerabilities that the framework could be exposed.
 
@@ -13,7 +11,6 @@ This assessment list some vulnerabilities that the framework could be exposed.
 - Use checksum for dependencies installation
 - Monitor dependencies for know vulnerabilities
 
-
 ### [T1195.001: Supply Chain Compromise: Compromise Software Dependencies and Development Tools](https://attack.mitre.org/techniques/T1195/001/)
 
 **Prevention:**
@@ -24,7 +21,6 @@ This assessment list some vulnerabilities that the framework could be exposed.
 - Use Python Audit features to block untrusted operations.
 
 ## [Execution](https://attack.mitre.org/tactics/TA0002/)
-
 
 ### [T1059.006: Command and Scripting Interpreter: Python](https://attack.mitre.org/techniques/T1059/006/)
 
