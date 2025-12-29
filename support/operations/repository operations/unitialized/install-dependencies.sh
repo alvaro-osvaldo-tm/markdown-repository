@@ -9,81 +9,77 @@ options[help]=0
 
 function help() {
 
-    printf "Usage: %s [options]\n" "$(basename "$0")"
-    printf "%s\n" "This is a description for the script template"
-    printf "Options:\n"    
-    printf "  %2.2s, %-16.16s    %s\n" "-h" "--help" "Show this help message"
-    printf "  %2.2s, %-16.16s    %s\n" "-h" "--run" "Execute dependencies installation"
-    printf "\n"
+	printf "Usage: %s [options]\n" "$(basename "$0")"
+	printf "%s\n" "This is a description for the script template"
+	printf "Options:\n"
+	printf "  %2.2s, %-16.16s    %s\n" "-h" "--help" "Show this help message"
+	printf "  %2.2s, %-16.16s    %s\n" "-h" "--run" "Execute dependencies installation"
+	printf "\n"
 
 }
 
 function configure() {
 
-    local arguments
-    arguments="$@"
+	local arguments
+	arguments="$@"
 
-    if [[ "$arguments" == "" ]]; then
-        arguments='--help'
-    fi
+	if [[ "$arguments" == "" ]]; then
+		arguments='--help'
+	fi
 
-    if ! arguments=$(getopt --long 'help,run' -o 'h,r' -n "$(basename "$0")" -- "$arguments")  ; then
-        help    
-        exit 255
-    fi
-        
+	if ! arguments=$(getopt --long 'help,run' -o 'h,r' -n "$(basename "$0")" -- "$arguments"); then
+		help
+		exit 255
+	fi
 
-    eval set -- "$arguments"
+	eval set -- "$arguments"
 
-    while true; do
+	while true; do
 
 		case "$1" in
-            --help | -h)
-            options[help]=1
-            shift
-            continue
-            ;;
-            --run | -r)
-            options[run]=1
-            shift
-            continue            
-            ;;
-            -- )
-            break
-            ;;            
-            *)
-            ;;            
-        esac
-     
-    done
+			--help | -h)
+				options[help]=1
+				shift
+				continue
+				;;
+			--run | -r)
+				options[run]=1
+				shift
+				continue
+				;;
+			--)
+				break
+				;;
+			*) ;;
+		esac
 
-    if [[ "${options[run]}" -eq 0 ]]; then
-        options[help]=1
-    fi    
-    
-    if [[ "${options[help]}" -eq 1 ]]; then
-        help
-        exit 0
-    fi
+	done
 
-    trap INT abort
+	if [[ "${options[run]}" -eq 0 ]]; then
+		options[help]=1
+	fi
+
+	if [[ "${options[help]}" -eq 1 ]]; then
+		help
+		exit 0
+	fi
+
+	trap INT abort
 
 }
 
 function abort() {
-    printf "Script Aborted\n"
-    exit 6
+	printf "Script Aborted\n"
+	exit 6
 }
-
 
 function install_nodejs_dependencies() {
-    npm install
+	npm install
 }
-
 
 function main() {
 
-    install_nodejs_dependencies
+	install_nodejs_dependencies
 }
 
 configure "$@"

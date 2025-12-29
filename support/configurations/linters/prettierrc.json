@@ -1,5 +1,7 @@
 {
 	"tabWidth": 1,
 	"useTabs": true,
-	"plugins": ["prettier-plugin-sh"]
+	"plugins": [
+		"prettier-plugin-sh"
+	]
 }

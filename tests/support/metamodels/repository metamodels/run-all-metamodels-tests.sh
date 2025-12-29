@@ -40,6 +40,18 @@ function get_test_for_metamodel() {
 
 }
 
+function execute_bats() {
+
+    local script="$1"
+    local metamodel="$2"
+    local test="$3"
+    local timeout=5
+    local wait_for_kill=2
+
+    TEST="$test" SCRIPT="$script" make bats > /dev/null 2> /dev/null     
+
+}
+
 function execute_test_for_script() {
 
     local script="$1"
@@ -48,7 +60,7 @@ function execute_test_for_script() {
 
     test="$(get_test_for_metamodel)"
 
-    TEST="$test" SCRIPT="$script" make bats > /dev/null 2> /dev/null 
+    TEST="$test" SCRIPT="$script" make --silent bats > /dev/null 2> /dev/null 
 }
 
 function report_error_for_script() {
