@@ -25,7 +25,7 @@ node_modules
 
 ## IDEs
 
-.code
+.vscode/settings.json
 .idea
 
 ## Support Tools
