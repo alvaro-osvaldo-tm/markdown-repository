@@ -19,14 +19,21 @@
 			"**/documents": true,
 			"**/sources": true,
 			"**/.vscode": false,
-			"**/tests": false,
 			"*.*": true,
 			"support/configurations": true,
-			"support/repositories": true,
+			"support/repositories": false,
+			"support/repositories/Artefacts": true,
+			"support/repositories/discovery": true,
+			"support/repositories/images": true,
+			"support/repositories/standards": true,
+			"support/repositories/workflows": true,
 			"support/operations/system operations": true,
 			"support/tools": true,
 			"support/workflows/repository": true,
 			"support/workflows/source-code": true,
+			"support/infrastructure/bash": false,
+			"support/infrastructure/bats": false,
+			"tests": false,
 		}
 	}
 }
