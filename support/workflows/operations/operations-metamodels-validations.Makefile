@@ -2,11 +2,11 @@
 # Validate the Operations Metamodel Application
 #
 
-operation-metamodels-validatation-run:
+validation-operation-metamodels-run:
 	bash tests/support/metamodels/repository\ metamodels/run-all-metamodels-tests.sh
 
 .ONESHELL:
-operation-metamodels-validatation-watch:
+validation-operation-metamodels-watch:
 
 		( 
 			

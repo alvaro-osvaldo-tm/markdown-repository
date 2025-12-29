@@ -7,9 +7,10 @@ SHELL=/bin/bash
 include ./support/infrastructure/infrastructure.Makefile
 
 include ./support/workflows/operations.Makefile
+include ./support/workflows/infrastructure.Makefile
 
 #include ./support/workflows/unitialized.Makefile
-#include ./support/workflows/code-formatter.Makefile
+include support/workflows/source-code/code-formatter.Makefile
 
 
 # You can add or overwrite the workflow with 'custom.Makefile'
