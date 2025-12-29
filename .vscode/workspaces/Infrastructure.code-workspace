@@ -1,0 +1,42 @@
+{
+	"folders": [
+		{
+			"name": "Infrastructure",
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.obsidian/**": false,
+			"**/node_modules": false,
+			"**/.trash": false,
+			"**/builds": false,
+			"**/documents": false,
+			"**/sources": false,
+			"support/configurations": false,
+			"support/repositories": false,
+			"support/repositories/Artefacts": false,
+			"support/repositories/discovery": false,
+			"support/repositories/images": false,
+			"support/repositories/standards": false,
+			"support/repositories/workflows": false,
+			"support/tools": false,
+			"LICENSE.md": false,
+			"package*.json": false,
+			"README.md": false,
+			"Makefile": false,
+			"tests/support": false,
+			".gitignore": false,
+			".vscode/settings.json": false,
+			"support/workflows/operations": false,
+			"support/workflows/repository": false,
+			"support/workflows/source-code": false,
+			"**/.gitkeep": false,
+			"ROADMAP.md": false,
+			"support/operations/file introspection": false,
+			"support/operations/repository operations": false,
+			"support/operations/system operations": false,
+			".editorconfig": false
+		},
+		"explorer.excludeGitIgnore": true,
+	}
