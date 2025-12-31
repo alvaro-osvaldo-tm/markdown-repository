@@ -2,19 +2,27 @@
 
 ## Description
 
-This value stream aims to elicit and consolidate stakeholder ideas and needs, transform them into a validated Conceptual Model, and materialise this model into the foundational Systems Engineering documents.
+This value stream aims to organise the stakeholder meeting and elicitation activities, to agree about the ideas, needs and problem to formally delivery a validated system-level concept as systems engineering foundational documents.
 
-Is expected to be used for new systems initiatives when no system's concept exists.
-
-Is based in the referenced book[^book] .
+Is expected to be used for new systems initiatives when no system's concept exists and is based in the referenced book[^book] .
 
 ## Customer
 
 - Any Stakeholder who possesses a need or idea for a new system.
+- [Systems Engineer Persona](../../stakeholders/Systems%20Engineer%20Persona.md)
+- [Enterprise Architect Persona](../../stakeholders/Enterprise%20Architect%20Persona.md)
 
 ## Product
 
-The System Concept (Conceptual Model), materialised in the core Systems Engineering documents, such as the initial Stakeholder Requirements Specification (StRS) and the System Boundary Context Diagram.
+- The [Systems Engineering Documentation](../../../documentation/Systems%20Engineering%20Documentation.md) with
+	- System Boundary Context Diagrams as:
+		- [Context Diagram](../../../engineering/Context%20Diagram.md)
+	- Work Agreement as:
+		- [Problem Agreement](../../agreements/Problem%20Agreement.md)
+		- [Statement of Work](../../agreements/Statement%20of%20Work.md)
+	- Solution Agreement as:
+		- [Functional Baseline](../../../engineering/Functional%20Baseline.md)
+		- [Concept of Operations](../../../engineering/Concept%20of%20Operations.md)
 
 ## Value Chain
 
