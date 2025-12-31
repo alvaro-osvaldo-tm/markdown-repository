@@ -50,14 +50,14 @@ The main work product to be generated is:
       2. Fill the [System Mission](../../../../documents/enterprise/agreements/Statement%20of%20Work.md#System%20Mission) section with the [Problem Partitions](../../../../documents/enterprise/agreements/Problem%20Agreement.md#Problem%20Partitions).
       3. Fill the goals in the [System Purpose and Goals](../../../../documents/enterprise/agreements/Statement%20of%20Work.md#System%20Purpose%20and%20Goals) section with the [Problem Partitions](../../../../documents/enterprise/agreements/Problem%20Agreement.md#Problem%20Partitions).
    2. **General Foundation Description:**
-      - > [!note] You can use the [Context Diagram](../../../../documents/engineering/Context%20Diagram.md) and the storytelling approach to create the vision.
+      - > [!note] You can use the [System Boundary Context Diagrams](../../../../documents/engineering/System%20Boundary%20Context%20Diagrams.md) and the storytelling approach to create the vision.
       - > [!constraint] The 'General Foundation' must describe the system high-level strategic role in the organisation.
       1. Derive the general '[System Mission](../../../../documents/enterprise/agreements/Statement%20of%20Work.md#System%20Mission)' from the [Problem Agreement](../../../../documents/enterprise/agreements/Problem%20Agreement.md) describing the strategic system impact in the organisation.
       2. Derive the 'System Vision' from the 'System Mission'.
-      3. Update the [Context Diagram](../../../../documents/engineering/Context%20Diagram.md) to reflect the 'System Vision'.
+      3. Update the [System Boundary Context Diagrams](../../../../documents/engineering/System%20Boundary%20Context%20Diagrams.md) to reflect the 'System Vision'.
       4. Derive the general [System Purpose](../../../../documents/enterprise/agreements/Statement%20of%20Work.md#System%20Purpose%20and%20Goals) from the 'System Vision'
       5. Derive the general [System Goals](../../../../documents/enterprise/agreements/Statement%20of%20Work.md#System%20Purpose%20and%20Goals) from the 'System Purpose'
-      6. If necessary refine both [Context Diagram](../../../../documents/engineering/Context%20Diagram.md) and the [As-Is Diagram]
+      6. If necessary refine both [System Boundary Context Diagrams](../../../../documents/engineering/System%20Boundary%20Context%20Diagrams.md) and the [As-Is Diagram]
    3. **General Limitations Description:**
       1. Limit the 'Problem Space' eliciting the external and internal constraints, and general limitations, assumptions, and uncertainties that affect:
          1. The solution.
@@ -77,7 +77,7 @@ The main work product to be generated is:
          - > [!check] The 'System Vision' must be directly traceable to and clearly demonstrate how the system will fulfill the 'System Mission'.
          - > [!check] The 'System Vision' must be structured to encompass the course of action defined by the 'System Purpose' and the key achievements outlined in the 'System Goals'.
       2. Update the [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md) attaching:
-         1. The [Context Diagram](../../../../documents/engineering/Context%20Diagram.md)
+         1. The [System Boundary Context Diagrams](../../../../documents/engineering/System%20Boundary%20Context%20Diagrams.md)
          2. The [Problem Agreement](../../../../documents/enterprise/agreements/Problem%20Agreement.md)
 
 ### Specific Definitions
@@ -88,7 +88,7 @@ The main work product to be generated is:
        	1. For each [Problem Partitions](../../../../documents/enterprise/agreements/Problem%20Agreement.md#Problem%20Partitions):
        		1. Derive the specific tactical '[System Mission](../../../../documents/enterprise/agreements/Statement%20of%20Work.md#System%20Mission)' .
        		2. Derive the  [Specific System Goals](../../../../documents/enterprise/agreements/Statement%20of%20Work.md#System%20Purpose%20and%20Goals)  from the [General System Goals](../../../../documents/enterprise/agreements/Statement%20of%20Work.md#System%20Purpose%20and%20Goals) .
-       	2. If necessary refine both [Context Diagram](../../../../documents/engineering/Context%20Diagram.md) and the [As-Is Diagram](../../../../documents/engineering/As-Is%20Diagram.md)
+       	2. If necessary refine both [System Boundary Context Diagrams](../../../../documents/engineering/System%20Boundary%20Context%20Diagrams.md) and the [As-Is Diagram](../../../../documents/engineering/As-Is%20Diagram.md)
 
 ### Legacy
 
@@ -96,17 +96,17 @@ The main work product to be generated is:
    1. **Base System Statement:**
       - > [!note] If become hard to develop the '[System Statement](../../../../documents/enterprise/agreements/Statement%20of%20Work.md#System%20Statement)' , develops preliminary the system vision to create context for the mission discussion and if need back the [Problem Agreement](../../../../documents/enterprise/agreements/Problem%20Agreement.md) or the 'stakeholder needs'.
       - > [!constraint] If the related activity document is not explicit, it must be interpreted as the [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md) document.
-      - > [!constraint] The [Context Diagram](../../../../documents/engineering/Context%20Diagram.md) always should reflect the 'System Vision' section, a change in any the diagram or in the section will require an update in the another.
+      - > [!constraint] The [System Boundary Context Diagrams](../../../../documents/engineering/System%20Boundary%20Context%20Diagrams.md) always should reflect the 'System Vision' section, a change in any the diagram or in the section will require an update in the another.
       1. Based in the [Problem Agreement](../../../../documents/enterprise/agreements/Problem%20Agreement.md), elicite or refine the [System Statement](../../../../documents/enterprise/agreements/Statement%20of%20Work.md#System%20Statement) section with:
-         - > [!note] You can use the [Context Diagram](../../../../documents/engineering/Context%20Diagram.md) and the storytelling approach to create the vision
+         - > [!note] You can use the [System Boundary Context Diagrams](../../../../documents/engineering/System%20Boundary%20Context%20Diagrams.md) and the storytelling approach to create the vision
          - > [!note] The system vision development is an iterative work, do not expect a 'single-shot' approach to develop a mature vision
          - > [!constraint] The 'System Vision' must follow the 'System Mission' structure.
          1. The 'System Mission'
          2. The 'System Vision'.
-            1. Update the [Context Diagram](../../../../documents/engineering/Context%20Diagram.md) to reflect the 'System Vision'.
+            1. Update the [System Boundary Context Diagrams](../../../../documents/engineering/System%20Boundary%20Context%20Diagrams.md) to reflect the 'System Vision'.
          3. The 'System Purpose' based in the 'System Vision'
          4. The 'System Goals' based in the 'System Purpose'
-      2. If necessary refine both the [Context Diagram](../../../../documents/engineering/Context%20Diagram.md) and the [As-Is Diagram](../../../../documents/engineering/As-Is%20Diagram.md)
+      2. If necessary refine both the [System Boundary Context Diagrams](../../../../documents/engineering/System%20Boundary%20Context%20Diagrams.md) and the [As-Is Diagram](../../../../documents/engineering/As-Is%20Diagram.md)
    2. **Solution Limitations:**
       - > [!note] This will help to constraint the problem agreement
       1. Identify internal and external constraints, and limitations, both for the project and the solution that can affect the needs.
@@ -119,7 +119,7 @@ The main work product to be generated is:
          - > [!constraint] The 'System Vision' must be directly traceable to and clearly demonstrate how the system will fulfill the 'System Mission'.
          - > [!constraint] The 'System Vision' must be structured to encompass the course of action defined by the 'System Purpose' and the key achievements outlined in the 'System Goals'.
       2. Update the [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md) attaching:
-         1. The [Context Diagram](../../../../documents/engineering/Context%20Diagram.md)
+         1. The [System Boundary Context Diagrams](../../../../documents/engineering/System%20Boundary%20Context%20Diagrams.md)
          2. The [Problem Agreement](../../../../documents/enterprise/agreements/Problem%20Agreement.md)
 
 3. Define the [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md) as baseline.

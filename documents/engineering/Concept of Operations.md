@@ -21,7 +21,7 @@ The the system purpose and scope is defined in the [Statement of Work](../enterp
 
 ## System Context
 
-The systems context is defined in the [Context Diagram](Context%20Diagram.md) document.
+The systems context is defined in the [System Boundary Context Diagrams](System%20Boundary%20Context%20Diagrams.md) document.
 
 ## Environments
 
