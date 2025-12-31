@@ -68,7 +68,7 @@ Transform the stakeholder expectations into the formal documents that materializ
 
 **Actions**
 
-- Execute the [System Concept Value Stream](../../enterprise/value%20stream/main%20value%20stream/System%20Concept%20Value%20Stream.md)
+- Execute the [System-Level Concept Value Stream](../../enterprise/value%20stream/main%20value%20stream/System-Level%20Concept%20Value%20Stream.md)
 
 **Deliverables**
 
