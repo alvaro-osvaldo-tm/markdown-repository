@@ -3,6 +3,15 @@
 
 ## Introduction
 
+## Operational Environment
+
+- Application Terminal Desktop environment
+- Embedded Application environment
+
+## Stakeholders
+
+## Users and Actors
+
 ## System Purpose and Scope
 
 The the system purpose and scope is defined in the [Statement of Work](../enterprise/agreements/Statement%20of%20Work.md) document.
@@ -19,25 +28,26 @@ The the system purpose and scope is defined in the [Statement of Work](../enterp
     
 - **Maintainability:** Allow for easy configuration updates and troubleshooting.
 
-## System Context
+
+## Operational Context
 
 The systems context is defined in the [System Boundary Context](System%20Boundary%20Context.md) document.
 
-## Environments
+## Operational Capabilities
 
-- Application Terminal Desktop environment
-- Embedded Application environment
+## Operational States
 
-## Operational Modes
+## Information Architecture
 
-## Characteristics
+### Signals
 
-- **Concurrent Processing:** Must process n-cores processor documents.
-- **Resource Utilization:** CPU and memory usage should remain within acceptable limits during operation.
+### Inputs
 
-## Capabilities and Services
+### Outputs
 
-## Operational Scenarios
+### Data Objects
+
+## Operational Scenario
 
 ### Aplicar Dublin Core
 
@@ -59,3 +69,8 @@ The systems context is defined in the [System Boundary Context](System%20Boundar
 ## Constraints 
 
 ## Limitations
+
+
+
+
+
