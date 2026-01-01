@@ -2,9 +2,9 @@
 
 ## Description
 
-This value stream aims to organise the stakeholder meeting and elicitation activities, to agree about the ideas, needs and problem to formally delivery a validated system-level concept as systems engineering foundational documents.
+This value stream aims to organise the stakeholder meeting and elicitation activities, to agree ideas, needs and problem to formally delivery a validated system-level concept as systems engineering foundational documents.
 
-Is expected to be used for new systems initiatives when no system's concept exists and is based in the referenced book[^book] .
+Based in the referenced book[^book] , Is expected to be used for new systems engineering initiatives when no system's concept exists.
 
 ## Customer
 
