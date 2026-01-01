@@ -28,12 +28,12 @@ The stakeholders need the motivation and a partial informal agreement to solve a
 
 ## Principles
 
-- **Context diagram as big picture:** Always keep the [System Boundary Context Diagrams](../../../../documents/engineering/System%20Boundary%20Context%20Diagrams.md) updated during the stakeholder meetings, it serves to create a common ground for all stakeholders and enable better communication.
+- **Context diagram as big picture:** Always keep the [System Boundary Context](../../../../documents/engineering/System%20Boundary%20Context.md) updated during the stakeholder meetings, it serves to create a common ground for all stakeholders and enable better communication.
 - **Concept Only:** This workflow is to determine the foundational concepts gathered from stakeholders and the expected outcome. No solutions or technical details should be discussed.
 
 ## Events
 
-- **When a new concept for the system context emerges:** Improve the [System Boundary Context Diagrams](../../../../documents/engineering/System%20Boundary%20Context%20Diagrams.md) and revise the the [Enterprise Metamodel](../../../../documents/enterprise/architecture/Enterprise%20Metamodel.md)
+- **When a new concept for the system context emerges:** Improve the [System Boundary Context](../../../../documents/engineering/System%20Boundary%20Context.md) and revise the the [Enterprise Metamodel](../../../../documents/enterprise/architecture/Enterprise%20Metamodel.md)
 - **When a technical concept or feature need to be registered or preliminary explored during stakeholder interactions:** Avoid develop a technical solution in this workflow because the focus is to develop the system concept, however, If you need to register such concept, use the [Discovery Catalog](../../discovery/Discovery%20Catalog.md).
 
 ## Course of Actions
@@ -51,7 +51,7 @@ The stakeholders need the motivation and a partial informal agreement to solve a
 6. **Review:**
    1. Execute the [Set Baseline Activity](#Set%20Baseline%20Activity)
    2. <span class="iteraction">Until the review is acceptable</span>
-      1. Review the [System Boundary Context Diagrams](../../../../documents/engineering/System%20Boundary%20Context%20Diagrams.md), the [Enterprise Metamodel](../../../../documents/enterprise/architecture/Enterprise%20Metamodel.md), the [Business Model](../../../../documents/business/Business%20Model.md) to reflect the current discussions.
+      1. Review the [System Boundary Context](../../../../documents/engineering/System%20Boundary%20Context.md), the [Enterprise Metamodel](../../../../documents/enterprise/architecture/Enterprise%20Metamodel.md), the [Business Model](../../../../documents/business/Business%20Model.md) to reflect the current discussions.
       2. Review the [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md)
       3. Execute the [Set Baseline Activity](#Set%20Baseline%20Activity)
 
@@ -64,7 +64,7 @@ The support activities is to be called from the the [Course of Actions](#Course%
 1. Define as baselines the catalogues:
    1. [Needs Catalog](../../../../documents/enterprise/catalogs/Needs%20Catalog.md)
 2. Define as baselines the diagrams:
-   1. [System Boundary Context Diagrams](../../../../documents/engineering/System%20Boundary%20Context%20Diagrams.md)
+   1. [System Boundary Context](../../../../documents/engineering/System%20Boundary%20Context.md)
    2. [As-Is Diagram](../../../../documents/engineering/As-Is%20Diagram.md)
 3. Define as baselines the documents:
    1. [Problem Agreement](../../../../documents/enterprise/agreements/Problem%20Agreement.md)

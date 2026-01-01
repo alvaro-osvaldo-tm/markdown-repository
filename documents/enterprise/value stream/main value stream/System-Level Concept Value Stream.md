@@ -16,7 +16,7 @@ Is expected to be used for new systems initiatives when no system's concept exis
 
 - The [Systems Engineering Documentation](../../../documentation/Systems%20Engineering%20Documentation.md) with
 	- System Context as:
-		- [System Boundary Context Diagrams](../../../engineering/System%20Boundary%20Context%20Diagrams.md)
+		- [System Boundary Context](../../../engineering/System%20Boundary%20Context.md)
 	- Work Agreement as:
 		- [Problem Agreement](../../agreements/Problem%20Agreement.md)
 		- [Statement of Work](../../agreements/Statement%20of%20Work.md)

@@ -1,4 +1,4 @@
-# System Boundary Context Diagrams
+# System Boundary Context
 
 
 This document explains the context that this project is based upon.
