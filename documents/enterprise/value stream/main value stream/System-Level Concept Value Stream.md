@@ -21,8 +21,8 @@ Based in the referenced book[^book] , Is expected to be used for new systems eng
 		- [Problem Agreement](../../agreements/Problem%20Agreement.md)
 		- [Statement of Work](../../agreements/Statement%20of%20Work.md)
 	- Solution Agreement as:
-		- [Functional Baseline](../../../engineering/Functional%20Baseline.md)
 		- [Concept of Operations](../../../engineering/Concept%20of%20Operations.md)
+		- [Functional Baseline](../../../engineering/Functional%20Baseline.md)
 
 ## Value Chain
 
@@ -32,11 +32,103 @@ Based in the referenced book[^book] , Is expected to be used for new systems eng
 	- **Purpose:**
 		- Prepare repositories to gather data
 		- Agree with stakeholders the first elicitation contacts
+	- **Product:**
+		- The repository organisation for the systems engineering practices
+		- The stakeholder meeting organisation for the systems engineering practices
+	- **Flow:**
+		1. [System Repository Preparation Workflow](../../../../support/repositories/workflows/systems%20engineering/System%20Repository%20Preparation%20Workflow.md)
+		2. Stakeholder Meeting Agreement Workflow
+		3. Stakeholder Meeting Preparation Workflow
+2. **Conceptual Design:**
+	- **Value:**
+		- A formally agreement what the systems must do and their life-cycle.
+	- **Purpose:**
+		- ...
+	- **Product:**
+		- [Functional Baseline](../../../engineering/Functional%20Baseline.md)
+	- **Flow:**
+		- Identification of Stakeholder Requirements Value Stream
+		- Feasibility Analysis Value Stream
+		- Requirements Analysis Value Stream
+		- System-Level Synthesis Value Stream
+		- System Design Review Value Stream
+3. **Preliminary Design:**
+	- **Value:**
+		- 
+	- **Purpose:**
+		- 
+	- **Flow:**
+		- ...
+4. **Detailed Design:**
+	- **Value:**
+		- ...
+	- **Purpose:**
+		- ...
+	- **Flow:**
+		- ...
+5. **Construction and Production:**
+	- **Value:**
+		- ...
+	- **Purpose:**
+		- ...
+	- **Flow:**
+		- ...
+6. **Utilisation:**
+	- **Value:**
+		- ...
+	- **Purpose:**
+		- ...
+	- **Flow:**
+		- ...
+
+7. **Identification of Stakeholder Requirements**
+	- **Value:**
+		- ...
+	- **Purpose:**
+		- ...
+	- **Flow:**
+		- ...
+8. **Feasibility Analysis**
+	- **Value:**
+		- ...
+	- **Purpose:**
+		- ...
+	- **Flow:**
+		- ...
+9. **Requirements Analysis**
+	- **Value:**
+		- ...
+	- **Purpose:**
+		- ...
+	- **Flow:**
+		- ...
+10. **System-Level Synthesis:**
+	- **Value:**
+		- ...
+	- **Purpose:**
+		- ...
+	- **Flow:**
+		- ...
+11. **System design review:**
+	- **Value:**
+		- ...
+	- **Purpose:**
+		- ...
+	- **Flow:**
+		- ...
+
+
+12. **Elicitation Preparation:**
+	- **Value:**
+		- The resources available to start the elicitation activities.
+	- **Purpose:**
+		- Prepare repositories to gather data
+		- Agree with stakeholders the first elicitation contacts
 	- **Activities:**
-		1. [System Repository Preparation](../../../../support/repositories/workflows/systems%20engineering/System%20Repository%20Preparation.md)
+		1. [System Repository Preparation Workflow](../../../../support/repositories/workflows/systems%20engineering/System%20Repository%20Preparation%20Workflow.md)
 		2. Stakeholder Meeting Agreement
 		3. Stakeholder Meeting Preparation
-2. **Stakeholder Elicitation**
+13. **Stakeholder Elicitation**
 	- **Value:**
 		- The stakeholder's problem formally defined
 	- **Purpose:**
@@ -45,7 +137,7 @@ Based in the referenced book[^book] , Is expected to be used for new systems eng
 		- Agree about the problem that will be solved.
 	- **Activities:**
 		- ...
-3. **Stakeholder Scope Agreement**
+14. **Stakeholder Scope Agreement**
 	- **Value:**
 		- The solution scope formal agreement
 	- **Purpose:**
@@ -56,7 +148,7 @@ Based in the referenced book[^book] , Is expected to be used for new systems eng
 		- Agree about the outcome validation
 	- **Activities:**
 		- ...
- 4. **Operational Solution Concept Elicitation**
+ 15. **Operational Solution Concept Elicitation**
 	 1. **Value:**
 		 1. An business-related agreement about the the solution concepts of operation and value-deliverable.
 	 2. **Purpose:**
@@ -68,7 +160,7 @@ Based in the referenced book[^book] , Is expected to be used for new systems eng
 		 6. Elicit the constraints and limitations for the solution.
 	 3. **Activities:**
 		 1. ...
- 5. **Deliverable Concept Agreement**
+ 16. **Deliverable Concept Agreement**
 	- **Value**
 		- An agreement about the main management and governance assertions for project's solution.
 	- **Purpose:**
@@ -77,7 +169,7 @@ Based in the referenced book[^book] , Is expected to be used for new systems eng
 		- Agree about the Project management
 	- **Activities:**
 		1. [Solution Deliverable Concept Workflow](../../../../support/repositories/workflows/systems%20engineering/Solution%20Deliverable%20Concept%20Workflow.md)
-6. **Functional Baseline Analysis**
+17. **Functional Baseline Analysis**
 	- **Value:**
 		- A technical performance and quality agreement about the solution
 	- **Purpose:**
@@ -85,7 +177,7 @@ Based in the referenced book[^book] , Is expected to be used for new systems eng
 		- Create the 'Traceability Matrix' between the 'Concept of Operations' and the 'Functional Baseline'
 	- **Activities:**
 		- ...
-7. **System Level Analysis~**
+18. **System Level Analysis~**
 	1. **Value:**
 		1. A technical analysis translating the stakeholders agreements into measurable engineering-related measures.
 	2. **Purpose:**
@@ -94,7 +186,7 @@ Based in the referenced book[^book] , Is expected to be used for new systems eng
 			1. [Feasibility Analysis](../../../../support/repositories/workflows/systems%20engineering/Feasibility%20Analysis.md)
 			2. [Requirements Analysis](../../../../support/repositories/workflows/systems%20engineering/Requirements%20Analysis.md)
 			3. Feasibility and Requirements Revision
-8. **System Level Synthesis~**
+19. **System Level Synthesis~**
 	1. **Value:**
 		1. Propose a system-wide quality and characteristics that meet the stakeholder expectations and system level analysis.
 	2. **Purpose:**
@@ -104,7 +196,7 @@ Based in the referenced book[^book] , Is expected to be used for new systems eng
 			2. System-Level Synthesis Revision
 		2. **Foundation Review**
 			1. [System Design Review](../../../../support/repositories/workflows/systems%20engineering/System%20Design%20Review.md)
-9. **System Level Revision**
+20. **System Level Revision**
 	- **Value:**
 		- A checked system-level concept formally agreed.
 	- **Purpose:**
@@ -112,7 +204,7 @@ Based in the referenced book[^book] , Is expected to be used for new systems eng
 	- **Activities:**
 		- ...
 
-10. **Stakeholder Elicitation and Scope Definition**
+21. **Stakeholder Elicitation and Scope Definition**
 	- **Value:**
 		- A formal system-wide high level, validated structure that translates abstract stakeholder ideas into a concrete, agreed-upon problem statement and system scope.
 	- **Purpose:**
@@ -128,14 +220,14 @@ Based in the referenced book[^book] , Is expected to be used for new systems eng
 			3. [System Statement Concept Workflow](../../../../support/repositories/workflows/systems%20engineering/System%20Statement%20Concept%20Workflow.md)
 			4. [Concept of Operation Concept Workflow](../../../../support/repositories/workflows/systems%20engineering/Concept%20of%20Operation%20Concept%20Workflow.md)
 			5. Needs and Scope Revision
-11. **Deliverable Concept Definition**
+22. **Deliverable Concept Definition**
 	- **Value**
 		- A agreement about how the solution will be delivered.
 	- **Purpose:**
 		- ...
 	- **Activities:**
 		1. [Solution Deliverable Concept Workflow](../../../../support/repositories/workflows/systems%20engineering/Solution%20Deliverable%20Concept%20Workflow.md)
-12. **System Level Analysis**
+23. **System Level Analysis**
 	1. **Value:**
 		1. Get a more technical system level analysis that translate the needs into measurable engineering-related expectations.
 	2. **Purpose:**
@@ -144,7 +236,7 @@ Based in the referenced book[^book] , Is expected to be used for new systems eng
 			1. [Feasibility Analysis](../../../../support/repositories/workflows/systems%20engineering/Feasibility%20Analysis.md)
 			2. [Requirements Analysis](../../../../support/repositories/workflows/systems%20engineering/Requirements%20Analysis.md)
 			3. Feasibility and Requirements Revision
-13. **System Level Synthesis**
+24. **System Level Synthesis**
 	1. **Value:**
 		1. Propose a system-wide quality and characteristics that meet the stakeholder expectations and system level analysis.
 	2. **Purpose:**
