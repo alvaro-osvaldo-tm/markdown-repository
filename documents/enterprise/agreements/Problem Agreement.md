@@ -1,6 +1,5 @@
 # Problem Agreement
 
-
 This document formalises the origins of problem that obstacule satisfy the needs of stakeholders.
 
 The problem make difficult to keep the business and technical documents, and information systems information integrity, what degrades both customer experience and information systems quality.
@@ -18,10 +17,9 @@ The following stakeholder agree about this problem:
 
 To make more easily to read this document and manage the problem agreed, the problem was partitioned as below:
 
-- **Governance Implementation:** The implementation and maintenance of the document governance rules 
+- **Governance Implementation:** The implementation and maintenance of the document governance rules
 - **Information Integrity:** The overall integrity e equivalency between documents and information systems.
 - **Links Integrity:** The document's integrity to valid attachments and documents reference.
-
 
 ## Problem Origin
 
@@ -32,7 +30,7 @@ This document origin have the following unsatisfied needs from the referenced st
 - **Information Integrity:**
 	- Keep business and technical documents, and information systems, with the same information independently their change origin.
 - **Links Integrity:**
-	- Preserve document links and attachment integrity when transferred to another their repository software, or when structural events changes as directory changes 
+	- Preserve document links and attachment integrity when transferred to another their repository software, or when structural events changes as directory changes
 
 ## Problem Statement
 
@@ -40,8 +38,8 @@ The amount of required resources to apply changes in documents is not affordable
 
 ## Problem Definition
 
-The documents are one of main organisation assets used mainly  for coding information for operations, create a common shared shared among collaborators 
-and other purposes. 
+The documents are one of main organisation assets used mainly  for coding information for operations, create a common shared shared among collaborators
+and other purposes.
 
 These documents are mainly coded in Markdown as raw-file in a file system, but can be transferred or incoming from other document based software as WikiJS.
 
@@ -49,7 +47,7 @@ Currently, the documents operations is made manually, what introduces mistakes a
 
 **Governance Implementation:**
 
-As documents is an asset and to ensure  metadata and content quality maintenance. The governance rules must be continuous applied in effect to  documents or governance rules changes, or other external events 
+As documents is an asset and to ensure  metadata and content quality maintenance. The governance rules must be continuous applied in effect to  documents or governance rules changes, or other external events
 
 Failing in apply the document's governance rules prevents the organization to apply operations that heavily depends in these documents.
 
@@ -67,10 +65,9 @@ Also, the common knowledge make more easily to audit how these rules are effecti
 
 **Links Integrity:**
 
-Documents operations as directory moving or documents title and name change are common. 
+Documents operations as directory moving or documents title and name change are common.
 
 Due the Markdown static nature , any change in their file reference , name, attachment or other links are not automatically updated, leading to integrity link lost and possible making some document unreachable.
-
 
 ### Environment Description
 
@@ -84,12 +81,11 @@ The result is the normalised document accessible to the 'Readers'
 
 ![as-is-diagram](../../../support/repositories/images/as-is-diagram.svg)
 
-### Symptoms and Consequences 
+### Symptoms and Consequences
 
+In problem observed, the main symptoms found are:
 
-In problem observed, the main symptoms found are: 
-
-- For every changes or transfer, someone need to manually  find the related documents and information systems to apply these changes, aborting the processes if more changes come before finished the previous. 
+- For every changes or transfer, someone need to manually  find the related documents and information systems to apply these changes, aborting the processes if more changes come before finished the previous.
 
 As consequence:
 
@@ -134,7 +130,6 @@ The section below details the observations.
 	3. Issues:
 		1. Transfer documents to another repository software without loose their integrity
 		2. Change the link elements without lost the document integrity.
-
 
 ### Problem Diagnosis
 

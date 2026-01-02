@@ -1,1 +1,1 @@
-# The community interacting with the product published as open-source.
+# The community interacting with the product published as open-source

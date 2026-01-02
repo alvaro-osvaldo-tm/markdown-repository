@@ -1,6 +1,5 @@
 # Concept of Operations
 
-
 ## Introduction
 
 ## System Purpose and Scope
@@ -11,20 +10,19 @@ The the system purpose and scope is defined in the [Statement of Work](../enterp
 
 The systems context is defined in the [System Boundary Context](System%20Boundary%20Context.md) document.
 
-
 ## Stakeholders , Users and Actors
+
 ## Operational Goals
 
 - **Reliability:** Achieve a high probability of successful file downloads according to the schedule (e.g., > 95% success rate for available files).
-    
-- **Timeliness:** Execute downloads within a defined window relative to the scheduled time (e.g., within 5 minutes of the scheduled start).
-    
-- **Efficiency:** Minimize network bandwidth consumption and processing power during downloads.
-    
-- **Usability:** Provide a user-friendly interface for defining download tasks and monitoring their status.
-    
-- **Maintainability:** Allow for easy configuration updates and troubleshooting.
 
+- **Timeliness:** Execute downloads within a defined window relative to the scheduled time (e.g., within 5 minutes of the scheduled start).
+
+- **Efficiency:** Minimize network bandwidth consumption and processing power during downloads.
+
+- **Usability:** Provide a user-friendly interface for defining download tasks and monitoring their status.
+
+- **Maintainability:** Allow for easy configuration updates and troubleshooting.
 
 ## Operational Environment
 
@@ -33,71 +31,56 @@ The systems context is defined in the [System Boundary Context](System%20Boundar
 
 ## Operational Capabilities
 
-##  Operational Characteristics and Qualities
-
+## Operational Characteristics and Qualities
 
 Based in the 'system statement' and the stakeholders agreement the product will conforms the following characteristics based in the ISO-25010 and [Q42 Quality Model](https://quality.arc42.org/).
 
-
-- **Adaptable** 
+- **Adaptable**
 	1. Git hooks can activate the product to apply the governance rules in changed documents.
 	2. The product can be integrated into a document processing workflow.
 	3. The product can interact with non-makdown based platforms as wiki using the same operations related to the Markdown documents.
 	4. The system can convert Markdown documents from JSON.
 	5. The system can read JSON documents and interact with it as a Markdown document.
-- **Disposable** 
-- **Documented** 
-- **Efficient** 
-	1.  The product must use near-zero human labor 
-	2. The product must be able to process a minimum 1000 documents using efficient memory usage. 
-- **Extensible** 
+- **Disposable**
+- **Documented**
+- **Efficient**
+	1. The product must use near-zero human labor
+	2. The product must be able to process a minimum 1000 documents using efficient memory usage.
+- **Extensible**
 	1. The product must get extensions from 'Pypi', 'Github' or other 'Git' based repositories.
-	2.  The user can define operation to transform documents
-- **Flexible** 
+	2. The user can define operation to transform documents
+- **Flexible**
 	1. The user can load python functions into the processing workflow to handle specific documents identified by their relative path in the repository or other document criteria.
-- **Maintainable** 
-- **Managed** 
-- **Monitored** 
-	1. The product can sendo log information to a logging platform in an standardised format. 
-- **Observed** 
-	1. The user can follow the operations progress when running in terminal 
-- **Operable** 
-- **Reliable** 
-- **Safe** 
-	1.  No document is lost due a software error.
+- **Maintainable**
+- **Managed**
+- **Monitored**
+	1. The product can sendo log information to a logging platform in an standardised format.
+- **Observed**
+	1. The user can follow the operations progress when running in terminal
+- **Operable**
+- **Reliable**
+- **Safe**
+	1. No document is lost due a software error.
 	2. When a document is moved from a directory to another, all related links are updated.
 	3. When a document is moved from a repository to another, all related attachments are moved together.
-- **Secure** 
+- **Secure**
 	1. External extensions have no means to compromise the computing node where the product is running.
-- **Suitable** 
-- **Usable** 
+- **Suitable**
+- **Usable**
 	1. The product can change sections, titles, paragraphs and words styles (bold, italic)
 	2. The product can change list and 'tasks lists'.
 	3. The product can operate html tags.
-	4.  The product can operate document's tables.
+	4. The product can operate document's tables.
 	5. Some capabilities are avaliable as cli-application
 	6. The user can build applications using the product.
 
-
-
-
 ### Efficiency and Performance
-    
+
 ### Safety and Security
-    
+
 ### Maintainability and Supportability
 
-
-
-
-
-
-
-
-
-
 ## Operational States
-
 
 ## Information Architecture
 
@@ -108,7 +91,6 @@ Based in the 'system statement' and the stakeholders agreement the product will 
 ### Outputs
 
 ### Data Objects
-
 
 ## Operational Scenario
 
@@ -128,8 +110,8 @@ Based in the 'system statement' and the stakeholders agreement the product will 
 - **Failures Modes:**
 	- Corrupted Repository
 - **Related Production Validation**
-   
-## Constraints 
+
+## Constraints
 
 ## Limitations
 
@@ -139,8 +121,4 @@ Based in the 'system statement' and the stakeholders agreement the product will 
 
 ### Measures of Effectiveness
 
-
-
 ### Acceptance Criteria
-
-

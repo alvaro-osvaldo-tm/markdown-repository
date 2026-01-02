@@ -1,7 +1,5 @@
 # Needs Catalog
 
-
-
 This catalog contains the needs elicited from the [Stakeholder Catalog](Stakeholder%20Catalog.md), the compilation and their justification is coded  in the document [Needs Catalog Spreedsheet](Needs%20Catalog%20Spreedsheet.ods) classified as follow:
 
 - **Must Have:** Innegotiable needs that must be satisfied in current iteration.

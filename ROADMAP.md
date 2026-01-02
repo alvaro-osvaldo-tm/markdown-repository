@@ -1,7 +1,5 @@
 # ROADMAP
 
-
-
 - Introduzir os seguintes documentos:
 	- [ ] [Necessidades dos Stakeholders](documents/enterprise/catalogs/Needs%20Catalog.md)
 	- [ ] [Conceitos de Operações](documents/engineering/Concept%20of%20Operations.md)

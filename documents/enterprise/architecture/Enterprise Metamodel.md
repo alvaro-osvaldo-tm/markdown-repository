@@ -1,9 +1,6 @@
 # Enterprise Metamodel
 
-
-
 ## Description
-
 
 ## Metamodel
 

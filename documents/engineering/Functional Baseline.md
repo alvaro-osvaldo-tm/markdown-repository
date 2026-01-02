@@ -1,18 +1,18 @@
 # Functional Baseline
 
-
 ## Systems Overview
 
 ## Functional Requirements
 
 ## External Interfaces
-### Inputs
-### Outputs
 
+### Inputs
+
+### Outputs
 
 ## Performance Requirements
 
-## System Qualities 
+## System Qualities
 
 ## Constraints
 

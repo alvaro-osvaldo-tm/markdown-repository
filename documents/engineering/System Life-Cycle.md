@@ -1,4 +1,4 @@
-# System Life-Cycle 
+# System Life-Cycle
 
 ## Description
 

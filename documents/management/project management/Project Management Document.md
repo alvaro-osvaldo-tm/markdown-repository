@@ -1,8 +1,6 @@
 # Project Management Document
 
-
 ### Project Management Principles
-
 
 - Become one of the main stream open-source projects in Markdown document manipulation and information extraction.
 

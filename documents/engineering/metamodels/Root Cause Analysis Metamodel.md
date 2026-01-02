@@ -1,10 +1,9 @@
 # Root Cause Analysis Metamodel
 
-
 ## Concerns
 
 - **What is happening:**
-	- What needs are not satisfied 
+	- What needs are not satisfied
 	- What's is the theory that  explains why the problem prevents the needs to be solved
 - **What organisational elements are affected**
 	- What are the related organisational behaviours
@@ -17,9 +16,7 @@
 - **The Issues**
 	- What is the relation between causes and their symptoms
 
-
 ## Metamodel
-
 
 ```mermaid
 

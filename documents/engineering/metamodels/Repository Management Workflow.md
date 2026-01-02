@@ -1,6 +1,5 @@
 # Repository Management Workflow
 
-
 ## Identification
 
 - URI: metamodel:local.repository.basic/v1
@@ -10,7 +9,6 @@
 This model normalizes the repository management workflow, implemented in the [Makefile](../../../Makefile) workflow configuration.
 
 ## Validations
-
 
 ## States
 
@@ -31,5 +29,3 @@ state Initialized {
 InstallingDependencies --> DependenciesInstalled
 
 ```
-
-

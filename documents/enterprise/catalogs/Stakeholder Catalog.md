@@ -1,10 +1,9 @@
 # Stakeholder Catalog
 
-
-
 These are the stakeholders identified for this framework, the stakeholders that is framework is designed for are the [End-user personas](#End-user%20personas), other stakeholders are related to the project management and life-cycle.
 
-## End-user personas:
+## End-user personas
+
  These are the users the framework is designed for.
 
 - [Markdown Editor Linux User Persona](stakeholders/Markdown%20Editor%20Linux%20User%20Persona/Markdown%20Editor%20Linux%20User%20Persona.md)
@@ -14,7 +13,7 @@ These are the stakeholders identified for this framework, the stakeholders that 
 	- **Vision:**
 		- They sit in the computer, open a linux terminal and execute the framework's applications to do some queries and transformations in markdown documents.
 		- Also have some bash scripts that automatizes some tasks and read documents and file lists com pipelines.
-		- Due collaboration with [Python Developer Persona](stakeholders/Python%20Developer%20Persona.md), also have some python application that 
+		- Due collaboration with [Python Developer Persona](stakeholders/Python%20Developer%20Persona.md), also have some python application that
 	- **Frustrations:**
 		- They don't like to manually edit a bunch documents to meet governance and quality documents criteria, as check the sections or metadata integrity
 		- The catalogues and indexes are always deprecated and require manual intervention.
@@ -34,23 +33,23 @@ These are the stakeholders identified for this framework, the stakeholders that 
 	- A user with Python programming knowledge, they wants to create applications that transforms many markdown documents at once, apply governance and configurations settings , extract content.
 	- Also want to import and export markdown repositories from different platform as WikiJS to the filesystem, including their attachments.
 	- They main cases is to ensure python code and markdown documentation is synchronised , so business personal can always read updated documentation , and if need change the document in some collaborative platform as a Wiki, Google Drive or other as needed. Then the changes are synchronised to the markdown documents that serve as source of truth and trigger software changes. Or the opposite, changes in the python code documentation or python data structures trigger changes in the markdown documents. The important is to keep both business and technical personal at same page.
-	-  **Vision:**
-		- The markdown repositories are many , but there is no problem, governance and configuration settings para implemented in python code and distributed to the projects need it. 
+	- **Vision:**
+		- The markdown repositories are many , but there is no problem, governance and configuration settings para implemented in python code and distributed to the projects need it.
 		- They can count on the [Markdown Editor Linux User Persona](stakeholders/Markdown%20Editor%20Linux%20User%20Persona/Markdown%20Editor%20Linux%20User%20Persona.md) to execute the applications or put in the GitOps workflow to ensure consistence.
 		- Both business and technical personal are at same page, with documents acting as interface for changes for business personal, as when a change in tables values trigger events that update the python configuration. It make a lot easier to keep software configuration updated because it the document now serves as an configuration repository.
 	- **Frustrations:**
-		- **Broken links:** When working markdown documents between directories or platforms, all linked files are lost. 
+		- **Broken links:** When working markdown documents between directories or platforms, all linked files are lost.
 		- **Business document integrity lost:** when business, technical and python source code comments are desynchronized.
 		- **Lack of support to maintain business documents integrity:** When a document's change not trigger events that help implement the code in source code. Or in opposite, when a change in source code comment or data structure not trigger events to update the documentation.
 	- **Principles:**
-		- **All personal at same page:** Changes in business rules documents , comments in source code, or data-structure 
+		- **All personal at same page:** Changes in business rules documents , comments in source code, or data-structure
 	- **Needs:**
 		- **Deploy governance document implementations:** Document's must me managed following governance rules, these rules must be deployed to many repositories to be executed when events triggers or must be used to validate these repositories manually.
 		- **Business and python application document must be syncronized:** When business personal changes a document, it need to trigger procedures that changes python applications behaviour. The opposites also must happen, when technical personal changes  python application comment or datastructure, it need to trigger procedures that changes the business documents.
 		- **Keep documents Integrity:** When operating documents, as transferring from a platform to another , changing directory , the change must carry their linked documents and attachments. The document integrity must not be loosed.
 	- **Concerns:**
 		- How to keep business and technical personal with same information
-		- How to operate documents safety 
+		- How to operate documents safety
 		- How to use a documents as rule database.
 		- How to create extensions
 	- **Related Problem**
@@ -80,7 +79,7 @@ Interested in understand the vulnerabilities and risks that the framework will i
 		- What methods is used to handle threats.
 		- What is the threat model in the framework
 		- What vulnerabilities exists in the framework
-		- What licenses is used in the framework 
+		- What licenses is used in the framework
 		- How can I contact the engineering team for security issues.
 		- How to audit the framework internal events that can indicates an 'Indicator of Compromise'
 		- How to log behaviours that could indicate an 'Indicator of Compromise'.
@@ -91,14 +90,13 @@ Interested in understand the vulnerabilities and risks that the framework will i
 	- **Discovered Concepts**
 		- **Release reporting using python 'Bandit' framework:** The vulnerability assessment can be released for each stable commit to be a available for the stakeholder.
 		- **Standardised security practices for python:** The improvements and processes made for this framework can be standardised for usage in other software developments.
-		- **Implementing a Secure Development Lifecycle:** The concept of Secure Development Lifecycle can be integrated in the system's life-cycle 
+		- **Implementing a Secure Development Lifecycle:** The concept of Secure Development Lifecycle can be integrated in the system's life-cycle
 		- **Python Audit Hook:** Is possible to enable personalised security constraints in the framework with [python's audit features](https://docs.python.org/3/library/audit_events.html).
 		- **Centralised and distributed logs:** Is possible to split logs from application and from 'Audit Hook' into to two separated stream , allowing log processing for security purpose and log processing for performance metrics purpose
 
 ## Hostile persona
 
 Interested in violate the framework default behaviour to propagate malware.
-
 
 - [Hostile Actor Persona](stakeholders/Hostile%20Actor%20Persona.md)
 	- Is an external actor that can act or not in behalf of the framework development or use another person as middleman.
@@ -116,8 +114,8 @@ Interested in violate the framework default behaviour to propagate malware.
 		- **Confidentiality compromise:** I want to get data from the user and send it to my infrastructure.
 		- **Integrity compromise:** I want to access the internal framework behaviour and states to control their operations in favor of my purposes.
 		- **Availability compromise:** I want to overload the user infrastructure to make unfeasible the framework processing.
-		- **Supply Chain Attack Compromise:** 
-			- I want the framework uses my compromised list of dependencies or the user install my compromised extension. 
+		- **Supply Chain Attack Compromise:**
+			- I want the framework uses my compromised list of dependencies or the user install my compromised extension.
 			- I want to install my code directly into the framework or in their CI/CD infrastructure to use as malware vector.
 	- **Concerns:**
 		- How to create or compromise extensions for malware purposes
@@ -126,8 +124,6 @@ Interested in violate the framework default behaviour to propagate malware.
 		- Using the framework to gain access to customer infrastructure
 	- **Discovered Concepts**
 		- [Vulnerabilities Assessment Discovery](../../../support/repositories/discovery/assessments/Vulnerabilities%20Assessment%20Discovery.md)
-
-
 
 ## Enterprise personas
 
@@ -145,13 +141,12 @@ Ensure the framework development will archive the expected organisation outcome.
 	- **Related Problem**
 	- **Discovered Concepts**
 
-
 ## Engineering personas
 
 Ensure the correctly practices for the framework life-cycle to archive the expected system outcome.
 
 - [Systems Engineer Persona](stakeholders/Systems%20Engineer%20Persona.md)
-	-  This stakeholder ensure the framework will be made using systems engineering method and best practices adapted 
+	- This stakeholder ensure the framework will be made using systems engineering method and best practices adapted
 	- **Vision:**
 	- **Frustrations:**
 	- **Principles:**
@@ -189,7 +184,6 @@ Similar to the [Enterprise personas](#Enterprise%20personas), these stakeholder 
 	- **Roles**
 	- **Discovered Concepts**
 
-
 - [Document Manager Persona](stakeholders/Document%20Manager%20Persona.md)
 	- {description | case description}
 	- **Vision:**
@@ -222,9 +216,6 @@ Similar to the [Enterprise personas](#Enterprise%20personas), these stakeholder 
 	- **Related Problem**
 	- **Roles**
 	- **Discovered Concepts**
-
-
-
 
 <!--
 

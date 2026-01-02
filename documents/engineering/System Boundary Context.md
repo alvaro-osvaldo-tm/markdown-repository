@@ -1,9 +1,8 @@
 # System Boundary Context
 
-
 This document explains the context that this project is based upon.
 
-The image below describes the graphically these context, the section [Context Boundaries](#Context%20Boundaries) describes the boundaries that compartment the related entities. 
+The image below describes the graphically these context, the section [Context Boundaries](#Context%20Boundaries) describes the boundaries that compartment the related entities.
 
 The section [Context Interactions](#Context%20Interactions) describe how these boundaries interacts with each other.
 

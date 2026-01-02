@@ -1,10 +1,8 @@
 # Statement of Work
 
-
 ## Context Diagram
 
 ![context-diagram](../../../support/repositories/images/context-diagram.svg)
-
 
 ## System Statement
 
@@ -19,7 +17,7 @@ The problem is that the amount of required resources to apply changes in documen
 
 Was observed that:
 
-- For every changes or transfer, someone need to manually  find the related documents and information systems to apply these changes, aborting the processes if more changes come before finished the previous. 
+- For every changes or transfer, someone need to manually  find the related documents and information systems to apply these changes, aborting the processes if more changes come before finished the previous.
 
 As consequence:
 
@@ -66,7 +64,7 @@ Onde of these applications allow to use the documents  as 'source-of-truth' for 
 This allowed to create applications that extract content from the repositories, the save the result in JSON to be used for other applications.
 
 Other applications keep the documents always updated, gathering data from external sources and updating the document's content and tables.
- 
+
  As the framework can be extended as needed,  Python Programmers can code internal organisation document's policies in extensions, and deploy to be available the framework is activated by an external document governance pipeline.
 
 The 'governance pipeline' is an external system, that activate the framework when needed to ensure each documentation baseline conform the governance, significantly reducing manual governance effort through a continuous, automated compliance pipeline.
@@ -85,7 +83,7 @@ Based in the their [Problem Partitions](Problem%20Agreement.md#Problem%20Partiti
 - **Governance Implementation:**
 	1. Support the document's governance implementation life-cycle for the supported documents for the supported storage platform.
 - **Information Integrity:**
-	1. Provides the capabilities to process that ensure that information in document's and information system are both equivalent. 
+	1. Provides the capabilities to process that ensure that information in document's and information system are both equivalent.
 - **Links Integrity:**
 	1. Guard the document's links integrity , supervising attachments transfer and documents location moving, blocking actions that corrupt the document's state.
 
@@ -98,7 +96,7 @@ In order to satisfy the system mission outcome, the system have the following pu
 		**Governance Implementation:**
 		**Information Integrity:**
 		**Links Integrity:**
-		1. 
+		1.
 
 2. Acts as a platform for document-based information integration and document generation.
 	1. Convert unstructured content from documents into semi or structured content.
@@ -106,11 +104,9 @@ In order to satisfy the system mission outcome, the system have the following pu
 	**Governance Implementation:**
 	**Information Integrity:**
 	**Links Integrity:**
-	3. 
-
+	3.
 
 ## Scope
-
 
 ### Stakeholders
 
@@ -165,7 +161,6 @@ With better agility will be possible to dedicate resources to more high value in
 
 Is expected that the product enable all outcomes defined below , their criterias organisation is based in the ISO-25010 and [Q42 Quality Model](https://quality.arc42.org/)
 
-
 1. [The document's governance rules applied with an automated product that uses near-zero human labor.](../../management/project%20management/validations/The%20document's%20governance%20rules%20applied%20with%20an%20automated%20product%20that%20uses%20near-zero%20human%20labor..md)
 	- **Success Criteria:**
 		- **Adaptable:**
@@ -174,7 +169,7 @@ Is expected that the product enable all outcomes defined below , their criterias
 			1. The product can transform all necessary documents from a non-conformant 'Dublin Core' metadata standard to 'conformant' based in the organisation policies.
 		- **Flexible:**
 			1. The product can load governance rules from external sources in any non-standardised format.
-			2. The product can enable or disable rules from a configuration files, enabling configurations per repository or per specific files. 
+			2. The product can enable or disable rules from a configuration files, enabling configurations per repository or per specific files.
 			3. The product can report what rules will apply in the document without change the files. Allowing audit and reporting in read-only repositories.
 		- **Efficient:**
 		- **Usable**
@@ -188,26 +183,26 @@ Is expected that the product enable all outcomes defined below , their criterias
 
 2. [Both business and technical documents relevant for their audience, with an automated product that uses near-zero human labor.](../../management/project%20management/validations/Both%20business%20and%20technical%20documents%20relevant%20for%20their%20audience,%20with%20an%20automated%20product%20that%20uses%20near-zero%20human%20labor..md)
 	- **Success Criteria:**
-		- **Adaptable** 
+		- **Adaptable**
 			1. A change in a document section or content can dispatch an event to be know to other systems or the own product.
-		- **Disposable** 
-		- **Documented** 
-		- **Efficient** 
-		- **Extensible** 
-			1.  The user can define operations to generate documents based in external information
-		- **Flexible** 
+		- **Disposable**
+		- **Documented**
+		- **Efficient**
+		- **Extensible**
+			1. The user can define operations to generate documents based in external information
+		- **Flexible**
 			1. The product can to evaluate if all information are available to start to operate the documents.
-		- **Maintainable** 
-		- **Managed** 
-		- **Monitored** 
-		- **Observed** 
-		- **Operable** 
-		- **Reliable** 
-		- **Safe** 
+		- **Maintainable**
+		- **Managed**
+		- **Monitored**
+		- **Observed**
+		- **Operable**
+		- **Reliable**
+		- **Safe**
 			1. After collecting data from documents, the system can send the information to external system as an transaction.
-		- **Secure** 
-		- **Suitable** 
-		- **Usable** 
+		- **Secure**
+		- **Suitable**
+		- **Usable**
 			1. The documents can be used as source-of-truth
 	- **Failure Criteria:**
 		- Any of 'Success Criteria' was not meet
@@ -219,7 +214,6 @@ Is expected that the product enable all outcomes defined below , their criterias
 		3. The issues and proposed changes is available at 'Github' for discussion.
 	- **Failure Criteria:**
 		1. Any of 'Success Criteria' was not meet
-
 
 ## Project Deliverables and Acceptance
 
@@ -233,10 +227,9 @@ These are the 'Major Deliverables' agreed, organised in according the [Project L
 - **Mission Phase:** The internal applications that enable the enterprise capabilities and full-fill the system mission.
 	- **[Minimal Markdown Governance Application](../../management/project%20management/deliverables/Minimal%20Markdown%20Governance%20Application.md):** The minimal organisation and system capabilities implementation.
 	- **[Full Markdown Governance Application](../../management/project%20management/deliverables/Full%20Markdown%20Governance%20Application.md):** The full scope organisation and system capabilities implementation.
-	-  **[The package published in the 'PyPi' repository](../../management/project%20management/deliverables/The%20package%20published%20in%20the%20'PyPi'%20repository.md)**: The first operational release published in conformance with 'PyPi' repository, including their 'GitHub' source code and community guidelines release.
+	- **[The package published in the 'PyPi' repository](../../management/project%20management/deliverables/The%20package%20published%20in%20the%20'PyPi'%20repository.md)**: The first operational release published in conformance with 'PyPi' repository, including their 'GitHub' source code and community guidelines release.
 - **Post-Mission Phase:** The artefacts to be delivered after the mission completion or after the mission deliverables being released.
 	- [Product Package](../../management/project%20management/deliverables/Product%20Package.md): The full project and product packed for the application life-cycle management.
-
 
 ### Critical Milestones
 
@@ -249,8 +242,6 @@ These are the 'Major Deliverables' agreed, organised in according the [Project L
 	- **[Release 0.1.0](../../management/project%20management/deliverables/Release%200.1.0.md):** The framework with the feature to automatically apply standard 'Dublin Core' metadata policies.
 	- **[Release 1.0.0](../../management/project%20management/deliverables/Release%201.0.0.md):** The framework completely supporting the [Concept of Operations](../../engineering/Concept%20of%20Operations.md)  and acceptance criteria validated.
 - **Post Mission Phase**
-
-
 
 ### Acceptance Criteria
 
@@ -279,7 +270,6 @@ These are the 'Major Deliverables' agreed, organised in according the [Project L
 - [Project Life-Cycle](../../management/project%20management/Project%20Life-Cycle.md)
 - [Project Management Document](../../management/project%20management/Project%20Management%20Document.md)
 
-
 ### Communication
 
 {A brief communication plan explanation, with the document reference}
@@ -290,7 +280,7 @@ These are the 'Major Deliverables' agreed, organised in according the [Project L
 
 - **Configuration Management:**
 - **Operations Management:**
--  **Maintenance and System Monitoring:**
--  **Security Management:**
--  **Knowledge Management:**
+- **Maintenance and System Monitoring:**
+- **Security Management:**
+- **Knowledge Management:**
 - **Document Management:**

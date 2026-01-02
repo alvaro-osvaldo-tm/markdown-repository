@@ -1,6 +1,5 @@
 # Project Life-Cycle
 
-
 ## Description
 
 This document specifies the project life-cycle specification, it's used to organise the processes in the project management.
@@ -81,10 +80,9 @@ Transform the stakeholder expectations into the formal documents that materializ
 **Actions**
 **Deliverables**
 
-- 
+-
 
-
-###  Design
+### Design
 
 **Actions**
 **Deliverables**
@@ -97,7 +95,7 @@ Transform the stakeholder expectations into the formal documents that materializ
 **Actions**
 **Deliverables**
 
-###  Production
+### Production
 
 **Actions**
 **Deliverables**
@@ -128,9 +126,7 @@ Transform the stakeholder expectations into the formal documents that materializ
 - Release 1.0.0
 - [Full Markdown Governance Application](deliverables/Full%20Markdown%20Governance%20Application.md)
 
-
 ### Packaging
-
 
 **Actions**
 **Deliverables**

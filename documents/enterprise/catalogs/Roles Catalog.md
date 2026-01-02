@@ -1,6 +1,5 @@
 # Roles Catalog
 
-
 This catalog registry the roles that are considered for this framework, not all roles are to be implemented in the framework, some are design for the project management.
 
 ## Roles

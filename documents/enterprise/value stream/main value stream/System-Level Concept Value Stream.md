@@ -63,7 +63,7 @@ Based in the referenced book[^book] , Is expected to be used for new systems eng
 		 1. Elicit the operational goals, scenarios and modes.
 		 2. Elicit the environments that system will operate.
 		 3. Elicit the business-related capabilities and services the solution will enable.
-		 4. Elicit the user-related characteristics of the solution 
+		 4. Elicit the user-related characteristics of the solution
 		 5. Elicit the measures of effectiveness and performance
 		 6. Elicit the constraints and limitations for the solution.
 	 3. **Activities:**
@@ -112,8 +112,6 @@ Based in the referenced book[^book] , Is expected to be used for new systems eng
 	- **Activities:**
 		- ...
 
-
-
 10. **Stakeholder Elicitation and Scope Definition**
 	- **Value:**
 		- A formal system-wide high level, validated structure that translates abstract stakeholder ideas into a concrete, agreed-upon problem statement and system scope.
@@ -121,9 +119,9 @@ Based in the referenced book[^book] , Is expected to be used for new systems eng
 		- Define the system boundary and its external interactions.
 		- Capture the full range of needs from the stakeholders.
 		- Validate the captured problem and desired outcome with the Stakeholder.
-		- Elicit an 
+		- Elicit an
 	- **Activities:**
-		1. 
+		1.
 		2. [Identification of Stakeholder and Their Needs](../../../../support/repositories/workflows/systems%20engineering/Identification%20of%20Stakeholder%20and%20Their%20Needs.md)
 			1. [Needs Catalogue Creation Workflow](../../../../support/repositories/workflows/systems%20engineering/Needs%20Catalogue%20Creation%20Workflow.md)
 			2. [Problem Agreement Workflow](../../../../support/repositories/workflows/systems%20engineering/Problem%20Agreement%20Workflow.md)
@@ -146,7 +144,7 @@ Based in the referenced book[^book] , Is expected to be used for new systems eng
 			1. [Feasibility Analysis](../../../../support/repositories/workflows/systems%20engineering/Feasibility%20Analysis.md)
 			2. [Requirements Analysis](../../../../support/repositories/workflows/systems%20engineering/Requirements%20Analysis.md)
 			3. Feasibility and Requirements Revision
-13. **System Level Synthesis **
+13. **System Level Synthesis**
 	1. **Value:**
 		1. Propose a system-wide quality and characteristics that meet the stakeholder expectations and system level analysis.
 	2. **Purpose:**
@@ -158,6 +156,5 @@ Based in the referenced book[^book] , Is expected to be used for new systems eng
 			1. [System Design Review](../../../../support/repositories/workflows/systems%20engineering/System%20Design%20Review.md)
 
 ## Reference
-
 
 [^book]: Managing Complex Technical Projects: A Systems Engineering Approach. R. Ian Faulconbridge, Michael J. Ryan

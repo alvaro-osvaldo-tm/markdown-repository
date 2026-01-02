@@ -1,8 +1,5 @@
 # Enterprise View
 
-
-
-
 ## Visualisation Levels
 
 - **Level 1 - Landscape:** Provides and a High-level view of the enterprise expected outcome and their drivers and stakeholders.
@@ -14,5 +11,5 @@
 
 - Foundation:
 - Common System:
--  Industry Specific:
+- Industry Specific:
 - Organisation-Specific:

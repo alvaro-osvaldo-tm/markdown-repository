@@ -1,6 +1,5 @@
 # Cybersecurity Analyst Persona
 
-
 This document will be filled with the [Stakeholder Catalog](../../catalogs/Stakeholder%20Catalog.md) information in further release.
 
 ## Description

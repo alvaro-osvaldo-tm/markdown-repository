@@ -27,13 +27,11 @@ ConceptOfOperations --> SystemLevel
 
 ```
 
-
 ## Catalogs
 
 - [Metamodels Catalog](../engineering/catalogs/Metamodels%20Catalog.md)
 
 ## System Specification
-
 
 ### Specifications
 
@@ -43,12 +41,9 @@ ConceptOfOperations --> SystemLevel
 
 [System Life-Cycle](../engineering/System%20Life-Cycle.md)
 
-
-
 ## Project Management
 
 [Project Life-Cycle](../management/project%20management/Project%20Life-Cycle.md)
-
 
 ## Management
 

@@ -1,6 +1,5 @@
 # Documentation Index
 
-
 ## System Context
 
 ![context-diagram](../support/repositories/images/context-diagram.svg)
@@ -26,4 +25,3 @@
 
 - [Governance Documentation](documentation/Governance%20Documentation.md)
 - [Project Management Documentation](documentation/Project%20Management%20Documentation.md)
-

@@ -1,7 +1,6 @@
 # Enterprise Documentation
 
-
-## Stakeholders 
+## Stakeholders
 
 - [Stakeholder Catalog](../enterprise/catalogs/Stakeholder%20Catalog.md)
 
@@ -22,4 +21,3 @@
 
 [Problem Agreement](../enterprise/agreements/Problem%20Agreement.md)
 [Statement of Work](../enterprise/agreements/Statement%20of%20Work.md)
-
