@@ -4,6 +4,30 @@
 
 ![context-diagram](../../support/repositories/images/context-diagram.svg)
 
+## Main Documents Hierarchy
+
+```mermaid
+flowchart 
+
+subgraph BusinessLevel["Business Level"]
+	ProblemAgreement["Problem Agreement"]
+	StatementOfWork["Statement of Work"]
+	ConceptOfOperations["Concept of Operations"]
+end
+
+subgraph SystemLevel["System Level"]
+
+	FunctionalBaseline["Functional Baseline"]
+	
+end
+
+ProblemAgreement --> StatementOfWork
+StatementOfWork --> ConceptOfOperations
+ConceptOfOperations --> SystemLevel
+
+```
+
+
 ## Catalogs
 
 - [Metamodels Catalog](../engineering/catalogs/Metamodels%20Catalog.md)
