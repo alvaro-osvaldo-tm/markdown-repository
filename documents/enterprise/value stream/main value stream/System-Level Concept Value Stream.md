@@ -40,22 +40,52 @@ Based in the referenced book[^book] , Is expected to be used for new systems eng
 	- **Value:**
 		- The stakeholder's problem formally defined
 	- **Purpose:**
+		- Identify the related stakeholders to the system
+		- Elicit their needs and problems
+		- Agree about the problem that will be solved.
 	- **Activities:**
-3. **Stakeholder Scope Definition**
+		- ...
+3. **Stakeholder Scope Agreement**
 	- **Value:**
 		- The solution scope formal agreement
 	- **Purpose:**
-		- 
+		- Agree about a 'System Statement'
+		- Agree about the work scope
+		- Agree about the work goals
+		- Agree about the expected outcome
+		- Agree about the outcome validation
 	- **Activities:**
 		- ...
-**Deliverable Concept Definition**
+ 4. **Operational Solution Concept Elicitation**
+	 1. **Value:**
+		 1. An business-related agreement about the the solution concepts of operation and value-deliverable.
+	 2. **Purpose:**
+		 1. Elicit the operational goals, scenarios and modes.
+		 2. Elicit the environments that system will operate.
+		 3. Elicit the business-related capabilities and services the solution will enable.
+		 4. Elicit the user-related characteristics of the solution 
+		 5. Elicit the measures of effectiveness and performance
+		 6. Elicit the constraints and limitations for the solution.
+	 3. **Activities:**
+		 1. ...
+ 5. **Deliverable Concept Agreement**
 	- **Value**
-		- An agreement about how the solution will be delivered and full fill their life-cycle.
+		- An agreement about the main management and governance assertions for project's solution.
 	- **Purpose:**
-		- ...
+		- Agree about the Project deliverables
+		- Agree about the Project governance
+		- Agree about the Project management
 	- **Activities:**
 		1. [Solution Deliverable Concept Workflow](../../../../support/repositories/workflows/systems%20engineering/Solution%20Deliverable%20Concept%20Workflow.md)
-4. **System Level Analysis**
+6. **Functional Baseline Analysis**
+	- **Value:**
+		- A technical performance and quality agreement about the solution
+	- **Purpose:**
+		- Transform the business-related 'Concept of Operations' into technical testable requirements
+		- Create the 'Traceability Matrix' between the 'Concept of Operations' and the 'Functional Baseline'
+	- **Activities:**
+		- ...
+7. **System Level Analysis~**
 	1. **Value:**
 		1. A technical analysis translating the stakeholders agreements into measurable engineering-related measures.
 	2. **Purpose:**
@@ -64,7 +94,7 @@ Based in the referenced book[^book] , Is expected to be used for new systems eng
 			1. [Feasibility Analysis](../../../../support/repositories/workflows/systems%20engineering/Feasibility%20Analysis.md)
 			2. [Requirements Analysis](../../../../support/repositories/workflows/systems%20engineering/Requirements%20Analysis.md)
 			3. Feasibility and Requirements Revision
-5. **System Level Synthesis**
+8. **System Level Synthesis~**
 	1. **Value:**
 		1. Propose a system-wide quality and characteristics that meet the stakeholder expectations and system level analysis.
 	2. **Purpose:**
@@ -74,7 +104,7 @@ Based in the referenced book[^book] , Is expected to be used for new systems eng
 			2. System-Level Synthesis Revision
 		2. **Foundation Review**
 			1. [System Design Review](../../../../support/repositories/workflows/systems%20engineering/System%20Design%20Review.md)
-6. **System Level Revision**
+9. **System Level Revision**
 	- **Value:**
 		- A checked system-level concept formally agreed.
 	- **Purpose:**
@@ -84,7 +114,7 @@ Based in the referenced book[^book] , Is expected to be used for new systems eng
 
 
 
-7. **Stakeholder Elicitation and Scope Definition**
+10. **Stakeholder Elicitation and Scope Definition**
 	- **Value:**
 		- A formal system-wide high level, validated structure that translates abstract stakeholder ideas into a concrete, agreed-upon problem statement and system scope.
 	- **Purpose:**
@@ -100,14 +130,14 @@ Based in the referenced book[^book] , Is expected to be used for new systems eng
 			3. [System Statement Concept Workflow](../../../../support/repositories/workflows/systems%20engineering/System%20Statement%20Concept%20Workflow.md)
 			4. [Concept of Operation Concept Workflow](../../../../support/repositories/workflows/systems%20engineering/Concept%20of%20Operation%20Concept%20Workflow.md)
 			5. Needs and Scope Revision
-8. **Deliverable Concept Definition**
+11. **Deliverable Concept Definition**
 	- **Value**
 		- A agreement about how the solution will be delivered.
 	- **Purpose:**
 		- ...
 	- **Activities:**
 		1. [Solution Deliverable Concept Workflow](../../../../support/repositories/workflows/systems%20engineering/Solution%20Deliverable%20Concept%20Workflow.md)
-9. **System Level Analysis**
+12. **System Level Analysis**
 	1. **Value:**
 		1. Get a more technical system level analysis that translate the needs into measurable engineering-related expectations.
 	2. **Purpose:**
@@ -116,7 +146,7 @@ Based in the referenced book[^book] , Is expected to be used for new systems eng
 			1. [Feasibility Analysis](../../../../support/repositories/workflows/systems%20engineering/Feasibility%20Analysis.md)
 			2. [Requirements Analysis](../../../../support/repositories/workflows/systems%20engineering/Requirements%20Analysis.md)
 			3. Feasibility and Requirements Revision
-10. **System Level Synthesis **
+13. **System Level Synthesis **
 	1. **Value:**
 		1. Propose a system-wide quality and characteristics that meet the stakeholder expectations and system level analysis.
 	2. **Purpose:**
