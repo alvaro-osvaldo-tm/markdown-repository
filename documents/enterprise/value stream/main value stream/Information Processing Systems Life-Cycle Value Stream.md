@@ -1,4 +1,4 @@
-# System-Level Concept Value Stream
+# Information Processing Systems Life-Cycle Value Stream
 
 ## Description
 

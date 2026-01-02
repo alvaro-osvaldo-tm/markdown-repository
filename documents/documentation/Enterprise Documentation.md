@@ -11,7 +11,7 @@
 
 ## Value Stream Landscape
 
-- [System-Level Concept Value Stream](../enterprise/value%20stream/main%20value%20stream/System-Level%20Concept%20Value%20Stream.md)
+- [Information Processing Systems Life-Cycle Value Stream](../enterprise/value%20stream/main%20value%20stream/Information%20Processing%20Systems%20Life-Cycle%20Value%20Stream.md)
 
 ## Catalogues
 
