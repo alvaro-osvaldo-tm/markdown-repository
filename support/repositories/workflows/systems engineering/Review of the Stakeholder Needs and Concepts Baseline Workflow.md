@@ -18,8 +18,6 @@ The main work product is the:
 - The revised documents
 - The current documents as baseline.
 
-
-
 ## Guidelines
 
 *No guidelines was defined*

@@ -18,7 +18,6 @@ The main work product is the:
 - The baseline identification
 - The related documents set immutable in their baseline.
 
-
 ## Guidelines
 
 *No guidelines was defined*
@@ -39,10 +38,10 @@ The main work product is the:
 
 1. Define as baselines the catalogues:
    2. [Needs Catalog](../../../../documents/enterprise/catalogs/Needs%20Catalog.md)
-3. Define as baselines the diagrams:
+2. Define as baselines the diagrams:
    4. [System Boundary Context](../../../../documents/engineering/System%20Boundary%20Context.md)
    5. [As-Is Diagram](../../../../documents/engineering/As-Is%20Diagram.md)
-6. Define as baselines the documents:
+3. Define as baselines the documents:
    7. [Problem Agreement](../../../../documents/enterprise/agreements/Problem%20Agreement.md)
    8. [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md)
    9. [Concept of Operations](../../../../documents/engineering/Concept%20of%20Operations.md).

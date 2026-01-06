@@ -1,6 +1,5 @@
 # Functional Baseline Concept Workflow
 
-
 ## Description
 
 This workflow is to develop the [Functional Baseline](../../../../documents/engineering/Functional%20Baseline.md) document.
@@ -13,19 +12,15 @@ For then, this workflow have the purpose to:
 - Elicit the user interaction and the system services that will satisfy their needs.
 - Define the measurable criteria that will define the operation and success and effective from the user perspective.
 
-
 The main work product is the:
 
 - The [Functional Baseline](../../../../documents/engineering/Functional%20Baseline.md) elaborated as foundational concept.
 
 ## Guidelines
 
-
 ## Prerequisites
 
-
 ## Principles
-
 
 ## Events
 

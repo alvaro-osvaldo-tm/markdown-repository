@@ -1,8 +1,6 @@
 # README
 
-
->	This framework is under development and is currently in the concept phase.
-
+> This framework is under development and is currently in the concept phase.
 
 ## Description
 
@@ -14,10 +12,7 @@ This is a library and application for processing Markdown repositories. It is in
 
 ## How It Works
 
-<p>
-	<img src="./support/repositories/images/context-diagram.svg"/>
-</p>
-
+![./support/repositories/images/context-diagram.svg]
 
 ## License
 

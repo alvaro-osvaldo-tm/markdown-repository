@@ -1,7 +1,5 @@
 # System Requirements Specification
 
-
-
 ## Business
 
 - [Statement of Work](../../enterprise/agreements/Statement%20of%20Work.md)

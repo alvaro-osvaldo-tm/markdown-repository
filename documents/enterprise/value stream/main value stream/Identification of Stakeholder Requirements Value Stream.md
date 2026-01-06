@@ -26,7 +26,6 @@ Based in the referenced book[^book] , Is expected to be used for new systems eng
 
 ## Value Chain
 
-
 - **Requirements Elicitation:**
 	- **Value:**
 		- ...
@@ -48,7 +47,6 @@ Based in the referenced book[^book] , Is expected to be used for new systems eng
 		- ...
 	- **Flow:**
 		- [Identification of Stakeholder and Their Needs](../../../../support/repositories/workflows/systems%20engineering/Identification%20of%20Stakeholder%20and%20Their%20Needs.md)
-
 
 1. **Stakeholder Elicitation**
 	- **Value:**
@@ -125,8 +123,6 @@ Based in the referenced book[^book] , Is expected to be used for new systems eng
 		- ...
 	- **Activities:**
 		- ...
-
-
 
 ## Reference
 

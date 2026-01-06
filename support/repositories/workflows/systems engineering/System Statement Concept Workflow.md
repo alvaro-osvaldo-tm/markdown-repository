@@ -1,4 +1,5 @@
 [Back](Identification%20of%20Stakeholder%20and%20Their%20Needs.md)
+
 # System Statement Concept Workflow
 
 ## Description
@@ -93,7 +94,7 @@ The main work product to be generated is:
 
 ### Legacy
 
-2. > [!iteration] Until the 'System Statement' is acceptable
+1. > [!iteration] Until the 'System Statement' is acceptable
    1. **Base System Statement:**
       - > [!note] If become hard to develop the '[System Statement](../../../../documents/enterprise/agreements/Statement%20of%20Work.md#System%20Statement)' , develops preliminary the system vision to create context for the mission discussion and if need back the [Problem Agreement](../../../../documents/enterprise/agreements/Problem%20Agreement.md) or the 'stakeholder needs'.
       - > [!constraint] If the related activity document is not explicit, it must be interpreted as the [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md) document.
@@ -123,9 +124,9 @@ The main work product to be generated is:
          1. The [System Boundary Context](../../../../documents/engineering/System%20Boundary%20Context.md)
          2. The [Problem Agreement](../../../../documents/enterprise/agreements/Problem%20Agreement.md)
 
-3. Define the [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md) as baseline.
+2. Define the [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md) as baseline.
 
-4. <span class="iteraction">Until the mission constraints, requirements, and acceptance criteria is acceptable</span>
+3. <span class="iteraction">Until the mission constraints, requirements, and acceptance criteria is acceptable</span>
    1. **Stakeholder Development Agreements:**
       1. Agree with the stakeholders:
          - > [!note] From the [Validations](../../../../documents/enterprise/agreements/Statement%20of%20Work.md#Validations) can emerge [Concept of Operations](../../../../documents/engineering/Concept%20of%20Operations.md)and other concepts that belongs to other activities.
@@ -138,4 +139,4 @@ The main work product to be generated is:
    2. **Refining:**
       1. Revise the changed section to ensure if complains the [System Statement](../../../../documents/enterprise/agreements/Statement%20of%20Work.md#System%20Statement).
       2. If necessary back the previous iteration to refine or update the '[System Statement](../../../../documents/enterprise/agreements/Statement%20of%20Work.md#System%20Statement)' to reflect the updates made.
-5. Define the [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md) as baseline.
+4. Define the [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md) as baseline.
