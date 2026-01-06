@@ -1,4 +1,4 @@
-# Document Management
+# Document Management Document
 
 This document defines how this project document wil be governed.
 

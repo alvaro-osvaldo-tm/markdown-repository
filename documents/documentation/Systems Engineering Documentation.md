@@ -4,16 +4,15 @@
 
 ![context-diagram](../../support/repositories/images/context-diagram.svg)
 
-## Main Documents Context
+## Main Documents Diagram
 
 ```mermaid
 
 
 flowchart 
-direction TB
 
-subgraph EnterpirseLevel["Enterpirse Level"]
-	EnterpriseMetamodel["Enterprise Metamodel"]
+subgraph EnterpriseLevel["Enterprise Level"]
+	EnterpriseArchitecure["Enterprise  Architecture"]
 end
 
 subgraph BusinessLevel["Business Level"]
@@ -29,37 +28,41 @@ subgraph ManagementLevel["Management Level"]
 	subgraph ProjectManagementDocument["Project Management Document"]
 	   ProjectLifeCycle["Project Life-Cycle"]
 	end
+	DocumentManagement["Document Management"]
 end
 
 subgraph SystemLevel["System Level"]
-
-SystemBoundaryContext["System Boundary Context"]
+direction TB
 	
-
-	subgraph SystemRequirementsSpecification["System Requirements Specification"]
-	
+		subgraph SystemRequirementsSpecification["System Requirements Specification"]
+				
+		SystemBoundaryContext["System Boundary Context"]
 		FunctionalBaseline["Functional Baseline"]		
 		SystemLifeCycle["System Life-Cycle"]
 	end
+
 	
 
 end
 
-EnterpirseLevel --> BusinessLevel
 
+EnterpriseLevel --> BusinessLevel
 StatementOfWork --> ManagementLevel
-ConceptOfOperations --> SystemLevel
+
+StatementOfWork --> SystemLevel
 
 ```
 
 ## Enterprise Level
 
-- [Enterprise Metamodel](../enterprise/architecture/Enterprise%20Metamodel.md)
+- [Enterprise Architecture](../enterprise/architecture/Enterprise%20Architecture.md)
+	- [Enterprise Metamodel](../enterprise/architecture/Enterprise%20Metamodel.md)
+	- [Enterprise View](../enterprise/architecture/Enterprise%20View.md)
 
 ## Business Level
 
 - [Statement of Work](../enterprise/agreements/Statement%20of%20Work.md)
-- [Concept of Operations](../engineering/Concept%20of%20Operations.md)
+	- [Concept of Operations](../engineering/Concept%20of%20Operations.md)
 
 ## System Level
 
@@ -69,10 +72,11 @@ ConceptOfOperations --> SystemLevel
 
 ## Level Management
 
-- [Document Management](../management/document%20management/Document%20Management.md)
-- [Project Management Document](../management/project%20management/Project%20Management%20Document.md)
-	- [Project Life-Cycle](../management/project%20management/Project%20Life-Cycle.md)
+- [Management Document](../management/Management%20Document.md)
+	- [Document Management](../management/document%20management/Document%20Management.md)
+	- [Project Management Document](../management/project%20management/Project%20Management%20Document.md)
+		- [Project Life-Cycle](../management/project%20management/Project%20Life-Cycle.md)
 
-## Catalogs
+## Catalogues
 
 - [Metamodels Catalog](../engineering/catalogs/Metamodels%20Catalog.md)
