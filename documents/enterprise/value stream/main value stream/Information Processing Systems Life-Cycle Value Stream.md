@@ -43,9 +43,13 @@ Based in the referenced book[^book] , Is expected to be used for new systems eng
 	- **Value:**
 		- A formally agreement what the systems must do and their life-cycle.
 	- **Purpose:**
-		- ...
+		- Elicit Stakeholder and Business Constraints:
+		- Elicit Solution Goals, Scenarios and Life-Cycle
+		- Elicit Design and System Boundaries
 	- **Product:**
-		- [Functional Baseline](../../../engineering/Functional%20Baseline.md)
+		-  [Statement of Work](../../agreements/Statement%20of%20Work.md)
+		- [System Requirements Specification](../../../engineering/specifications/System%20Requirements%20Specification.md)
+		- [Project Management Document](../../../management/project%20management/Project%20Management%20Document.md)
 	- **Flow:**
 		- [Identification of Stakeholder Requirements Value Stream](Identification%20of%20Stakeholder%20Requirements%20Value%20Stream.md)
 		- Feasibility Analysis Value Stream
