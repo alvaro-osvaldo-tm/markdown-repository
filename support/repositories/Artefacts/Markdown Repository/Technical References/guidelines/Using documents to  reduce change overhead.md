@@ -1,4 +1,4 @@
-# Using documents to reduce change overhead
+# Using documents to  reduce change overhead
 
 To make the 'Agile/Lean' practices more easily, this workflow is organised to divide the effort in the the 'business perspective' and the 'systems engineering' perspective. Each one have a main document that serves as hub for their related documents.
 

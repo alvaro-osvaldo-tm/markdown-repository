@@ -39,55 +39,17 @@ The stakeholders need the motivation and a partial informal agreement to solve a
 ## Course of Actions
 
 1. **Identify the related stakeholders and their needs:**
-   1. Execute the [Needs Catalogue Creation Workflow](Needs%20Catalogue%20Creation%20Workflow.md)
+	1. Execute the [Needs Catalogue Creation Workflow](Needs%20Catalogue%20Creation%20Workflow.md)
 2. **Agree with stakeholders the problem that prevents the needs to be solved:**
-   1. Execute the [Problem Agreement Workflow](Problem%20Agreement%20Workflow.md).
+	1. Execute the [Problem Agreement Workflow](Problem%20Agreement%20Workflow.md).
 3. **Agree with the stakeholders the business perspective of their needs:**
-   1. Execute the [System Statement Concept Workflow](System%20Statement%20Concept%20Workflow.md)
+	1. Execute the [System Statement Concept Workflow](System%20Statement%20Concept%20Workflow.md)
 4. **Agree with the stakeholders the foundational operations to solve their needs:**
-   1. Execute the '[Concept of Operation Concept Workflow](Concept%20of%20Operation%20Concept%20Workflow.md)
-5. **Agree with stakeholder how the solution will be delivered:**
-   1. Execute the [Solution Deliverable Concept Workflow](Solution%20Deliverable%20Concept%20Workflow.md)
-6. **Review:**
-   1. Execute the [Set Baseline Activity](#Set%20Baseline%20Activity)
-   2. <span class="iteraction">Until the review is acceptable</span>
-      1. Review the [System Boundary Context](../../../../documents/engineering/System%20Boundary%20Context.md), the [Enterprise Metamodel](../../../../documents/enterprise/architecture/Enterprise%20Metamodel.md), the [Business Model](../../../../documents/business/Business%20Model.md) to reflect the current discussions.
-      2. Review the [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md)
-      3. Execute the [Set Baseline Activity](#Set%20Baseline%20Activity)
-
-## Support Activities
-
-The support activities is to be called from the the [Course of Actions](#Course%20of%20Actions).
-
-### Set Baseline Activity
-
-1. Define as baselines the catalogues:
-   1. [Needs Catalog](../../../../documents/enterprise/catalogs/Needs%20Catalog.md)
-2. Define as baselines the diagrams:
-   1. [System Boundary Context](../../../../documents/engineering/System%20Boundary%20Context.md)
-   2. [As-Is Diagram](../../../../documents/engineering/As-Is%20Diagram.md)
-3. Define as baselines the documents:
-   1. [Problem Agreement](../../../../documents/enterprise/agreements/Problem%20Agreement.md)
-   2. [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md)
-   3. [Concept of Operations](../../../../documents/engineering/Concept%20of%20Operations.md).
-
----
-
-9. <span class="iteraction">Until the system solution baseline is acceptable</span>
-   1. Define a preliminary [System Life-Cycle](../../../../documents/engineering/System%20Life-Cycle.md) to discuss the foundational technical aspects for the system life.
-   2. Develop the preliminary 'Services' and 'Use Cases', to be served by the system and registry in the  [Functional Baseline](../../../../documents/engineering/Functional%20Baseline.md).
-      1. - > [!constraint] Each 'Service' and 'Use Case' must satisfy the traceability rules defined by the [Enterprise Metamodel] (e.g., must be traced to a 'Capability').
-   3. Refine the  [Business Model](../../../../documents/business/Business%20Model.md) with Measure of Effectiveness (MoE) e Success Criteria for the Capabilities suportadas.
-   4. Refine the [Functional Baseline](../../../../documents/engineering/Functional%20Baseline.md) with the 'Acceptance Criteria' and 'System Verification Methods' for the registered 'Services' and 'Use Cases'.
-   5. Update the [System Requirements Specification](../../../../documents/engineering/specifications/System%20Requirements%20Specification.md) attaching:
-      1. The [System Life-Cycle](../../../../documents/engineering/System%20Life-Cycle.md)
-      2. The [Functional Baseline](../../../../documents/engineering/Functional%20Baseline.md)
-
-10. <span class="iteraction">Until a allocated baseline is acceptable</span>
-    - If the stakeholder need to explicit define a non-functional parameters for the system
-      - Develop a preliminary quality model for the system with the elements of interests to stakeholders and registry in the [Allocated Baseline](../../../../documents/engineering/Allocated%20Baseline.md).
-      - Develop the preliminary 'system performance' and 'characteristics' to be served by the system and registry in the [Allocated Baseline](../../../../documents/engineering/Allocated%20Baseline.md)
-    - Update the [System Requirements Specification](../../../../documents/engineering/specifications/System%20Requirements%20Specification.md) attaching:
-      - The [Allocated Baseline](../../../../documents/engineering/Allocated%20Baseline.md) even if is empty.
-
-11. Review the [System Requirements Specification](../../../../documents/engineering/specifications/System%20Requirements%20Specification.md)
+	1. Execute the '[Concept of Operation Concept Workflow](Concept%20of%20Operation%20Concept%20Workflow.md)'
+5. **Develop the technical foundation of the solution**
+	1. Execute the '[Functional Baseline Concept Workflow](Functional%20Baseline%20Concept%20Workflow.md)'
+6. **Agree with stakeholder how the solution will be delivered:**
+	1. Execute the [Solution Deliverable Concept Workflow](Solution%20Deliverable%20Concept%20Workflow.md)
+7. **Review the agreement and concepts with stakeholders:**
+   8. Execute the '[Setting the Stakeholder Needs and Concepts as Baseline Workflow](Setting%20the%20Stakeholder%20Needs%20and%20Concepts%20as%20Baseline%20Workflow.md)'
+   9. Execute the '[Review of the Stakeholder Needs and Concepts Baseline Workflow](Review%20of%20the%20Stakeholder%20Needs%20and%20Concepts%20Baseline%20Workflow.md)'
