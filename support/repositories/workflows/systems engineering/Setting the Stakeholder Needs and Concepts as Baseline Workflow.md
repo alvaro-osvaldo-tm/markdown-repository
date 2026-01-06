@@ -1,4 +1,4 @@
-[Back](Identification%20of%20Stakeholder%20and%20Their%20Needs.md)
+[Back](Identification%20of%20Stakeholder%20and%20Their%20Needs%20Workflow.md)
 
 # Setting the Stakeholder Needs and Concepts as Baseline Workflow
 
@@ -24,7 +24,7 @@ The main work product is the:
 
 ## Prerequisites
 
-- Had started at least one iteration of the [Identification of Stakeholder and Their Needs](Identification%20of%20Stakeholder%20and%20Their%20Needs.md) workflow
+- Had started at least one iteration of the [Identification of Stakeholder and Their Needs Workflow](Identification%20of%20Stakeholder%20and%20Their%20Needs%20Workflow.md) workflow
 
 ## Principles
 

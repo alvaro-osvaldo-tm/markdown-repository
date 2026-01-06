@@ -1,4 +1,6 @@
-# Identification of Stakeholder and Their Needs
+[Back](../../../../documents/enterprise/value%20stream/main%20value%20stream/Identification%20of%20Stakeholder%20Requirements%20Value%20Stream.md)
+
+# Identification of Stakeholder and Their Needs Workflow
 
 ## Description
 
@@ -39,17 +41,17 @@ The stakeholders need the motivation and a partial informal agreement to solve a
 ## Course of Actions
 
 1. **Identify the related stakeholders and their needs:**
-	1. Execute the [Needs Catalogue Creation Workflow](Needs%20Catalogue%20Creation%20Workflow.md)
+	1. Execute the [Needs Catalogue Creation Workflow](Needs%20Catalogue%20Creation%20Workflow.md).
 2. **Agree with stakeholders the problem that prevents the needs to be solved:**
 	1. Execute the [Problem Agreement Workflow](Problem%20Agreement%20Workflow.md).
 3. **Agree with the stakeholders the business perspective of their needs:**
-	1. Execute the [System Statement Concept Workflow](System%20Statement%20Concept%20Workflow.md)
+	1. Execute the [System Statement Concept Workflow](System%20Statement%20Concept%20Workflow.md).
 4. **Agree with the stakeholders the foundational operations to solve their needs:**
-	1. Execute the '[Concept of Operation Concept Workflow](Concept%20of%20Operation%20Concept%20Workflow.md)'
+	1. Execute the [Concept of Operation Concept Workflow](Concept%20of%20Operation%20Concept%20Workflow.md).
 5. **Develop the technical foundation of the solution**
-	1. Execute the '[Functional Baseline Concept Workflow](Functional%20Baseline%20Concept%20Workflow.md)'
+	1. Execute the [Functional Baseline Concept Workflow](Functional%20Baseline%20Concept%20Workflow.md).
 6. **Agree with stakeholder how the solution will be delivered:**
-	1. Execute the [Solution Deliverable Concept Workflow](Solution%20Deliverable%20Concept%20Workflow.md)
+	1. Execute the [Solution Deliverable Concept Workflow](Solution%20Deliverable%20Concept%20Workflow.md).
 7. **Review the agreement and concepts with stakeholders:**
-   8. Execute the '[Setting the Stakeholder Needs and Concepts as Baseline Workflow](Setting%20the%20Stakeholder%20Needs%20and%20Concepts%20as%20Baseline%20Workflow.md)'
-   9. Execute the '[Review of the Stakeholder Needs and Concepts Baseline Workflow](Review%20of%20the%20Stakeholder%20Needs%20and%20Concepts%20Baseline%20Workflow.md)'
+   8. Execute the [Setting the Stakeholder Needs and Concepts as Baseline Workflow](Setting%20the%20Stakeholder%20Needs%20and%20Concepts%20as%20Baseline%20Workflow.md).
+   9. Execute the [Review of the Stakeholder Needs and Concepts Baseline Workflow](Review%20of%20the%20Stakeholder%20Needs%20and%20Concepts%20Baseline%20Workflow.md).
