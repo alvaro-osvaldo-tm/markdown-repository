@@ -5,7 +5,7 @@ format:
 	make --silent format-run
 
 	git add '*'
-	git commit --all -s -m "chore: Applied lint to all documents"
+	git commit --all -s -m "chore: Applied code formatter to all files."
 
 
 format-run:
