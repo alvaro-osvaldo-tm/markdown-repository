@@ -55,7 +55,7 @@ StatementOfWork --> SystemLevel
 
 ## Enterprise Level
 
-- [Enterprise Architecture](../enterprise/architecture/Enterprise%20Architecture.md)
+- [Enterprise Documentation](Enterprise%20Documentation.md)
 	- [Enterprise Metamodel](../enterprise/architecture/Enterprise%20Metamodel.md)
 	- [Enterprise View](../enterprise/architecture/Enterprise%20View.md)
 
