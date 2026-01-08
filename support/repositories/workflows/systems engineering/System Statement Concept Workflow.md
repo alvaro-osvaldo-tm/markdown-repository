@@ -53,9 +53,8 @@ The main work product to be generated is:
 	      3. Fill the goals in the [System Purpose and Goals](../../../../documents/enterprise/agreements/Statement%20of%20Work.md#System%20Purpose%20and%20Goals) section with the [Problem Partitions](../../../../documents/enterprise/agreements/Problem%20Agreement.md#Problem%20Partitions).
    2. **Elicit System Description:**
       - > [!note] You can use the [System Boundary Context](../../../../documents/engineering/System%20Boundary%20Context.md) and the storytelling approach to create the vision.
-      - > [!constraint] The 'General Foundation' must describe the system high-level strategic role in the organisation.
       1. Derive the general '[System Mission](../../../../documents/enterprise/agreements/Statement%20of%20Work.md#System%20Mission)' from the [Problem Agreement](../../../../documents/enterprise/agreements/Problem%20Agreement.md) describing the strategic system impact in the organisation.
-      2. Derive the 'System Vision' from the 'System Mission'.
+      2. Derive the '[System Vision](../../../../documents/enterprise/agreements/Statement%20of%20Work.md#System%20Vision)' from the '[System Mission](../../../../documents/enterprise/agreements/Statement%20of%20Work.md#System%20Mission)'.
       3. Update the [System Boundary Context](../../../../documents/engineering/System%20Boundary%20Context.md) to reflect the 'System Vision'.
       4. Derive the general [System Purpose](../../../../documents/enterprise/agreements/Statement%20of%20Work.md#System%20Purpose%20and%20Goals) from the 'System Vision'
       5. Derive the general [System Goals](../../../../documents/enterprise/agreements/Statement%20of%20Work.md#System%20Purpose%20and%20Goals) from the 'System Purpose'
@@ -72,7 +71,7 @@ The main work product to be generated is:
          - > [!check] The 'System Mission' must describe the fundamental, enduring purpose of the system, focusing on its core strategic contribution and reason for existence.
          - > [!check] The 'System Purpose' must describe an high view course of action to satisfy the 'System Mission'.
          - > [!check] The 'System Goals' must describe an high view steps to satisfy the 'System Purpose'
-         - > [!check] The 'System Vision' must be directly traceable to and clearly demonstrate how the system will fulfill the 'System Mission'.
+         - > [!check] The 'System Vision' must be directly traceable to and clearly demonstrate how the system will fulfil the 'System Mission'.
          - > [!check] The 'System Vision' must be structured to encompass the course of action defined by the 'System Purpose' and the key achievements outlined in the 'System Goals'.
       2. Update the [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md) attaching:
          1. The [System Boundary Context](../../../../documents/engineering/System%20Boundary%20Context.md)
