@@ -52,11 +52,11 @@ Based in the referenced book[^book] , Is expected to be used for new systems eng
 		- [System Requirements Specification](../../../engineering/specifications/System%20Requirements%20Specification.md)
 		- [Project Management Document](../../../management/project%20management/Project%20Management%20Document.md)
 	- **Flow:**
-		- [Identification of Stakeholder Requirements Value Stream](Identification%20of%20Stakeholder%20Requirements%20Value%20Stream.md)
-		- Feasibility Analysis Value Stream
-		- Requirements Analysis Value Stream
-		- System-Level Synthesis Value Stream
-		- System Design Review Value Stream
+		1. [Identification of Stakeholder Requirements Value Stream](Identification%20of%20Stakeholder%20Requirements%20Value%20Stream.md)
+		2. Feasibility Analysis Value Stream
+		3. Requirements Analysis Value Stream
+		4. System-Level Synthesis Value Stream
+		5. System Design Review Value Stream
 3. **Preliminary Design Life-Cycle Phase:**
 	- **Value:**
 		- ...

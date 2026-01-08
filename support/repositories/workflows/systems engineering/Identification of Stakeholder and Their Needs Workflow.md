@@ -53,5 +53,5 @@ The stakeholders need the motivation and a partial informal agreement to solve a
 6. **Agree with stakeholder how the solution will be delivered:**
 	1. Execute the [Solution Deliverable Concept Workflow](Solution%20Deliverable%20Concept%20Workflow.md).
 7. **Review the agreement and concepts with stakeholders:**
-   8. Execute the [Setting the Stakeholder Needs and Concepts as Baseline Workflow](Setting%20the%20Stakeholder%20Needs%20and%20Concepts%20as%20Baseline%20Workflow.md).
-   9. Execute the [Review of the Stakeholder Needs and Concepts Baseline Workflow](Review%20of%20the%20Stakeholder%20Needs%20and%20Concepts%20Baseline%20Workflow.md).
+	1. Execute the [Setting the Stakeholder Needs and Concepts as Baseline Workflow](Setting%20the%20Stakeholder%20Needs%20and%20Concepts%20as%20Baseline%20Workflow.md).
+	2. Execute the [Review of the Stakeholder Needs and Concepts Baseline Workflow](Review%20of%20the%20Stakeholder%20Needs%20and%20Concepts%20Baseline%20Workflow.md).
