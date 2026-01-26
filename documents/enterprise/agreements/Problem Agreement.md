@@ -10,8 +10,12 @@ This happens due the lack of organisational resources to keep these elements int
 
 The following stakeholder agree about this problem:
 
-- [Markdown Editor Linux User Persona](../stakeholders/Markdown%20Editor%20Linux%20User%20Persona/Markdown%20Editor%20Linux%20User%20Persona.md)
-- [Python Developer Persona](../stakeholders/Python%20Developer%20Persona.md)
+- **Management Personas**
+	- [Document Manager Persona](../stakeholders/Document%20Manager%20Persona.md)
+	- [Systems Engineer Persona](../stakeholders/Systems%20Engineer%20Persona.md)
+- **Users:**
+	- [Markdown Editor Linux User Persona](../stakeholders/Markdown%20Editor%20Linux%20User%20Persona/Markdown%20Editor%20Linux%20User%20Persona.md)
+	- [Python Developer Persona](../stakeholders/Python%20Developer%20Persona.md)
 
 ## Problem Partitions
 
@@ -79,7 +83,7 @@ These work is made manually by both 'Document Management Persona' and document '
 
 The result is the normalised document accessible to the 'Readers'
 
-![as-is-diagram](../../../support/repositories/images/as-is-diagram.svg)
+![as-is-diagram](../../engineering/images/as-is-diagram.svg)
 
 ### Symptoms and Consequences
 

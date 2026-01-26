@@ -2,7 +2,7 @@
 
 ## Context Diagram
 
-![context-diagram](../../../support/repositories/images/context-diagram.svg)
+![context-diagram](../../engineering/images/contexts%20diagrams/context-diagram.svg)
 
 ## System Statement
 
@@ -24,12 +24,6 @@ As consequence:
 - The information in documents and systems loose their integrity or are left obsolete  and mistes are made in the manual changes, resulting in need more changes need.
 
 The root cause discovered is that for each major change in the documents require more resources than is available in organisation to  complete safety due the increasing required manual work for each change.
-
-To make more easily to understand , the problem was partitioned in the following parts:
-
-**Governance Implementation:**
-**Information Integrity:**
-**Links Integrity:**
 
 A more detailed explanations exists in the document [Problem Agreement](Problem%20Agreement.md).
 
@@ -89,22 +83,14 @@ Based in the their [Problem Partitions](Problem%20Agreement.md#Problem%20Partiti
 
 ### System Purpose and Goals
 
-In order to satisfy the system mission outcome, the system have the following purpose and their general goals described as subitems, and the specific goals partitioned according to the [Problem Partitions](Problem%20Agreement.md#Problem%20Partitions):
+In order to satisfy the system mission outcome, the system have the following purpose as described below.
 
-1. Acts as intermediate layer between the documents systems and the users that transparently apply governance rules and extract document information
+1. Acts as intermediate layer between the documents systems and the users to transparently apply governance rules and extract document information
 	1. Transform non-normalised documents into normalised documents
-		**Governance Implementation:**
-		**Information Integrity:**
-		**Links Integrity:**
-		1.
 
 2. Acts as a platform for document-based information integration and document generation.
 	1. Convert unstructured content from documents into semi or structured content.
 	2. Execute document transformation operations.
-	**Governance Implementation:**
-	**Information Integrity:**
-	**Links Integrity:**
-	3.
 
 ## Scope
 

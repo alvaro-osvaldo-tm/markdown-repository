@@ -57,7 +57,7 @@ These are the stakeholders identified for this framework, the stakeholders that 
 	- **Roles:**
 		- Contributor Role
 	- **Discovered Concepts**
-		- [Google Docs Integration Discovery Case](../../../support/repositories/discovery/cases/Google%20Docs%20Integration%20Discovery%20Case.md)
+		- [Google Docs Integration Discovery Case](../../engineering/discovery/cases/Google%20Docs%20Integration%20Discovery%20Case.md)
 
 ## Cybersecurity persona
 
@@ -123,7 +123,7 @@ Interested in violate the framework default behaviour to propagate malware.
 	- **Related Problem**
 		- Using the framework to gain access to customer infrastructure
 	- **Discovered Concepts**
-		- [Vulnerabilities Assessment Discovery](../../../support/repositories/discovery/assessments/Vulnerabilities%20Assessment%20Discovery.md)
+		- [Vulnerabilities Assessment Discovery](../../engineering/discovery/assessments/Vulnerabilities%20Assessment%20Discovery.md)
 
 ## Enterprise personas
 

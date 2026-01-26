@@ -37,7 +37,7 @@ Based in the referenced book[^book] , Is expected to be used for new systems eng
 		- The repository organisation for the systems engineering practices
 		- The stakeholder meeting organisation for the systems engineering practices
 	- **Flow:**
-		1. [System Repository Preparation Workflow](../../../../support/repositories/workflows/systems%20engineering/System%20Repository%20Preparation%20Workflow.md)
+		1. [System Repository Preparation Workflow](../../../management/process%20management/workflows/systems%20engineering/System%20Repository%20Preparation%20Workflow.md)
 		2. Stakeholder Meeting Agreement Workflow
 		3. Stakeholder Meeting Preparation Workflow
 2. **Conceptual Design Life-Cycle Phase:**

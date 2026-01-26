@@ -2,7 +2,7 @@
 
 ## System Context
 
-![context-diagram](../support/repositories/images/context-diagram.svg)
+![context-diagram](engineering/images/contexts%20diagrams/context-diagram.svg)
 
 ## Documentations
 
