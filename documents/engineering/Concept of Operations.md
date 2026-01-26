@@ -1,33 +1,152 @@
+---
+aliases:
+---
 # Concept of Operations
 
 ## Introduction
 
 ## System Purpose and Scope
 
-The the system purpose and scope is defined in the [Statement of Work](../enterprise/agreements/Statement%20of%20Work.md) document.
+This concept of operation have the purpose to  '*Acts as intermediate layer between the documents systems and the user to transparently apply governance rules and extract document information*' with the aim to transform and normalise Markdown documents.
 
-## Operational Context
-
-The systems context is defined in the [System Boundary Context](System%20Boundary%20Context.md) document.
+The complete the system purpose and scope is defined in the [Statement of Work](../enterprise/agreements/Statement%20of%20Work.md) document, in their [System Purpose and Goals](../enterprise/agreements/Statement%20of%20Work.md#System%20Purpose%20and%20Goals) section.
 
 ## Stakeholders , Users and Actors
 
-## Operational Goals
+This concept of operation is intended to meet the following participant's needs:
 
-- **Reliability:** Achieve a high probability of successful file downloads according to the schedule (e.g., > 95% success rate for available files).
+- **Stakeholder:**
+	- [Document Manager Persona](../enterprise/stakeholders/Document%20Manager%20Persona.md)
+	- [Systems Engineer Persona](../enterprise/stakeholders/Systems%20Engineer%20Persona.md)
+- **Users:**
+	- [Markdown Editor Linux User Persona](../enterprise/stakeholders/Markdown%20Editor%20Linux%20User%20Persona/Markdown%20Editor%20Linux%20User%20Persona.md)
+	- [Python Developer Persona](../enterprise/stakeholders/Python%20Developer%20Persona.md)
 
-- **Timeliness:** Execute downloads within a defined window relative to the scheduled time (e.g., within 5 minutes of the scheduled start).
+## System Context
 
-- **Efficiency:** Minimize network bandwidth consumption and processing power during downloads.
+Based in the [System Boundary Context](System%20Boundary%20Context.md) and their related metamodels, this this concept of operations is limited to the following:
 
-- **Usability:** Provide a user-friendly interface for defining download tasks and monitoring their status.
+- **Bounded Context**
+	- Framework Environment
+- **Actors:**
+	- Python Programmer
+- **Entities:**
+	- Governance Rules Extension
+	- Markdown Repository Framework
+- **Metamodels**
+	- [Markdown Document](System%20Boundary%20Context.md#Markdown%20Document)
 
-- **Maintainability:** Allow for easy configuration updates and troubleshooting.
+<!--
+Automation:
+The 'To-Be' diagram with the unspecific elements as opaques must be automatically put here.
+-->
+
+The image below shows the elements selected in the system context.
+
+![concept of operations](images/contexts%20diagrams/concept%20of%20operations.svg)
+
+
 
 ## Operational Environment
 
-- Application Terminal Desktop environment
-- Embedded Application environment
+
+The environment is presented the organisation in need to manage their Markdown documents. For then is assumed that:
+
+- There is an organisation with many Markdown documents and systems:
+	- The systems:
+		- Depends and feed the Markdown documents.
+	- The documents:
+		- Need to conform a structural normative.
+		- Need to support systems engineering processes
+	- The 'Python Programmer' actor:
+		- Uses 'Development Environments' (ak. VSCode) to interact with the 'Framework'
+
+## Operational Scenarios
+
+The concept of operation will operate in the 'Framework Environment' context, the 'Python Programmer' will use an 'Development Environments' with and IDE (ak. VSCode, PyCharm) with TDD infrastructure to develop and test the 'Governance Rules Extensions' as depicted below:
+
+```mermaid
+flowchart TD
+
+
+subgraph DevelopmentEnvironment["Development Environment"]
+	IDE
+	PythonInfrastructure["Python Infrastructure"]
+end
+
+subgraph FrameworkEnvironment["Framework Environment"]
+	GovernanceRulesExtension["Governance Rules Extension"]
+	MarkdownRepositoryFramework["Markdown Repository Framework"]
+end
+
+User -- codes --> IDE
+
+IDE -- uses --> PythonInfrastructure
+IDE -- edit --> GovernanceRulesExtension
+
+GovernanceRulesExtension -- extends --> MarkdownRepositoryFramework
+GovernanceRulesExtension -.conforms.-> PythonInfrastructure
+
+PythonInfrastructure -- runs --> MarkdownRepositoryFramework
+
+
+
+```
+
+
+These operation will allow the user to interact and change Markdown documents , applying 'Governance Rules Extension' at will.
+
+Once satisfied, the 'User' will store these 'Governance Rules Extensions' for further usage and ensure their quality with verification tests based in the TDD practices.
+
+
+## Operational Goals
+
+The operational goals are organised according to the [Problem Partitions](../enterprise/agreements/Problem%20Agreement.md#Problem%20Partitions) defined in the [Problem Agreement](../enterprise/agreements/Problem%20Agreement.md) document, under the [Stakeholders , Users and Actors](#Stakeholders%20,%20Users%20and%20Actors) perspective. 
+
+For each partition, the goals are grouped into groups and then specialized according the '[Markdown Document](System%20Boundary%20Context.md#Markdown%20Document) ' metamodel defined in the [System Boundary Context](System%20Boundary%20Context.md) document.
+
+A more specific description about these organisation levels can be found in the referenced documents.
+
+### Governance Implementation
+
+The system shall provide mechanisms to enforce structural integrity across the document repository. This includes metadata correction and the synchronisation of paragraphs/tables with authoritative external data sources, ensuring the "Source of Truth" is maintained.
+
+
+For then, the users have the following goals:
+
+1. *Document's Content Normalisation*
+		1. **Content:**
+				1. Normalise paragraphs and tables content based in other document's and systems changes.
+				2. Convert textual section references into link section references.
+		2. **Lists:**
+				1. Convert list items into new documents , identifying these new documents and converting the items into links.
+
+2. *Document's Metadata Normalisation*
+	1. **Metadata:**
+		1. Normalise the document's metadata containing the data and valid values required by the normalisation.
+		2. Each documents that not contains an identification , receive an identification value.
+		3. Each documents that not contains metadata , is applied 'Dublin Core' metadata.
+
+
+3. **Document Validation:**
+
+
+4. **Document Validation:**
+	1. **References**
+		1. Check if all links and images references links to a valid artefact.
+	2. **Templates:**
+		1. Check if a document conform to a Markdown document  or python logical structure template
+5. **Engineering Information Process Support:**
+
+
+### Information Integrity
+
+No '*Information Integrity*' goals was defined
+
+### Links Integrity
+
+No '*links*' goals was defined
+
 
 ## Operational Capabilities
 
@@ -117,8 +236,40 @@ Based in the 'system statement' and the stakeholders agreement the product will 
 
 ## Validation
 
-### Measure of Performance
+### Governance Implementation
 
-### Measures of Effectiveness
+- **Document Normalisation**
+	- **Metadata:**
+		1. *Document's Metadata Normalisation*
+			- **Measure of Performance:**
+				1. Each document that not conforms the metadata normative must be transformed to conforms the metadata normative.
+				2. Each document that contains any metadata, it receive 'Dublin Core' and an identification value
+				3. Each document that contains 'Dublin Core' metadata but not an identification, receives an identification.
+			- **Measures of Effectiveness:**
+				1. Documents that conforms the normative must have no metadata changed.
+			- **Acceptance Criteria:**
+				1. All 'Measure of Performance' was archived.
+	-  **Content:**
+		1. *Document's Content Normalisation*
+		2. *Document's Tables Operation*
+			- **Measure of Performance**
+				1. An entire table can be rebuild based in the external source information
+				2. Any table cell information can be gathered and comparated to external source.
+				3. Any table cell information can be updated to an external source.
+			- **Measures of Effectiveness**
+			- **Acceptance Criteria**
+				1. All 'Measure of Performance' was archived.
+		3. *Documents Links Operations*
+			- **Measure of Performance**
+				-  Any word between two 'Apostrophe' that is also an document section can be automatically converted to a link
+				- Any word between two 'Apostrophe' that is also an document section from any referenced document can be automatically converted to a link
+			- **Measures of Effectiveness**
+			- **Acceptance Criteria**
+	- **Lists:**
+		- **Measure of Performance**
+		- **Measures of Effectiveness**
+		- **Acceptance Criteria**
+			1. All 'Measure of Performance' was archived.
+	1. 
+## Engineering Information Process Support
 
-### Acceptance Criteria
