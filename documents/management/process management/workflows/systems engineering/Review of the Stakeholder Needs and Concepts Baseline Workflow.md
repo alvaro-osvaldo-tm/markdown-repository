@@ -37,6 +37,6 @@ The main work product is the:
 ## Course of Actions
 
 1. <span class="iteraction">Until the review is acceptable</span>
-      1. Review the [System Boundary Context](../../../../documents/engineering/System%20Boundary%20Context.md), the [Enterprise Metamodel](../../../../documents/enterprise/architecture/Enterprise%20Metamodel.md), the [Business Model](../../../../documents/business/Business%20Model.md) to reflect the current discussions.
-      2. Review the [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md)
+      1. Review the [System Boundary Context](../../../../engineering/System%20Boundary%20Context.md), the [Enterprise Metamodel](../../../../enterprise/architecture/Enterprise%20Metamodel.md), the [Business Model](../../../../business/Business%20Model.md) to reflect the current discussions.
+      2. Review the [Statement of Work](../../../../enterprise/agreements/Statement%20of%20Work.md)
       3. Execute the [Setting the Stakeholder Needs and Concepts as Baseline Workflow](Setting%20the%20Stakeholder%20Needs%20and%20Concepts%20as%20Baseline%20Workflow.md)

@@ -1,4 +1,4 @@
-[Back](../../../../documents/enterprise/value%20stream/main%20value%20stream/Identification%20of%20Stakeholder%20Requirements%20Value%20Stream.md)
+[Back](../../../../enterprise/value%20stream/main%20value%20stream/Identification%20of%20Stakeholder%20Requirements%20Value%20Stream.md)
 
 # Identification of Stakeholder and Their Needs Workflow
 
@@ -16,13 +16,13 @@ For then, this workflow have the purpose to:
 
 The main work products to be generated are:
 
-- The formal [Problem Agreement](../../../../documents/enterprise/agreements/Problem%20Agreement.md)
-- A preliminary version of the [Statement of Work](../../../../documents/enterprise/agreements/Statement%20of%20Work.md), that contains system scope
-- A preliminary version of the [Concept of Operations](../../../../documents/engineering/Concept%20of%20Operations.md), that contains the expected operation to solve needs.
+- The formal [Problem Agreement](../../../../enterprise/agreements/Problem%20Agreement.md)
+- A preliminary version of the [Statement of Work](../../../../enterprise/agreements/Statement%20of%20Work.md), that contains system scope
+- A preliminary version of the [Concept of Operations](../../../../engineering/Concept%20of%20Operations.md), that contains the expected operation to solve needs.
 
 ## Guidelines
 
-- [Using documents to reduce change overhead](../../Artefacts/Markdown%20Repository/Technical%20References/guidelines/Using%20documents%20to%20%20reduce%20change%20overhead.md)
+- [Using documents to reduce change overhead](../../../../../support/repositories/Artefacts/Markdown%20Repository/Technical%20References/guidelines/Using%20documents%20to%20%20reduce%20change%20overhead.md)
 
 ## Prerequisites
 
@@ -30,13 +30,13 @@ The stakeholders need the motivation and a partial informal agreement to solve a
 
 ## Principles
 
-- **Context diagram as big picture:** Always keep the [System Boundary Context](../../../../documents/engineering/System%20Boundary%20Context.md) updated during the stakeholder meetings, it serves to create a common ground for all stakeholders and enable better communication.
+- **Context diagram as big picture:** Always keep the [System Boundary Context](../../../../engineering/System%20Boundary%20Context.md) updated during the stakeholder meetings, it serves to create a common ground for all stakeholders and enable better communication.
 - **Concept Only:** This workflow is to determine the foundational concepts gathered from stakeholders and the expected outcome. No solutions or technical details should be discussed.
 
 ## Events
 
-- **When a new concept for the system context emerges:** Improve the [System Boundary Context](../../../../documents/engineering/System%20Boundary%20Context.md) and revise the the [Enterprise Metamodel](../../../../documents/enterprise/architecture/Enterprise%20Metamodel.md)
-- **When a technical concept or feature need to be registered or preliminary explored during stakeholder interactions:** Avoid develop a technical solution in this workflow because the focus is to develop the system concept, however, If you need to register such concept, use the [Discovery Catalog](../../discovery/Discovery%20Catalog.md).
+- **When a new concept for the system context emerges:** Improve the [System Boundary Context](../../../../engineering/System%20Boundary%20Context.md) and revise the the [Enterprise Metamodel](../../../../enterprise/architecture/Enterprise%20Metamodel.md)
+- **When a technical concept or feature need to be registered or preliminary explored during stakeholder interactions:** Avoid develop a technical solution in this workflow because the focus is to develop the system concept, however, If you need to register such concept, use the [Discovery Catalog](../../../../engineering/discovery/Discovery%20Catalog.md).
 
 ## Course of Actions
 
