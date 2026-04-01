@@ -3,6 +3,9 @@
 	"MD003": {
 		"style": "atx"
 	},
+
+
+
 	"MD005": false,
 	"MD007": false,
 	"MD010": false,
@@ -15,4 +18,21 @@
 	},
 	"MD041": false,
 	"MD051": false
+
+		/** Recomendações da VSCode **/
+
+  "default": true,
+  "MD004": false,
+  "MD026": false,
+  "MD058": false,
+  "MD060": false,
+  "MD032": false,
+  "MD031": false,
+  "MD029": false,
+  "MD009": false,
+  "MD034": false,
+  "MD022": false,
+  "MD012": false,
+
+
 }
